@@ -1,1 +1,1 @@
-A playlist site for people who want to share music. 
+Playshare: A playlist site for people who want to share music. 
