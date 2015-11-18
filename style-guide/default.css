@@ -1,0 +1,62 @@
+.header {
+  font-family: 'Oxygen', helvetica, sans-serif;
+  font-size: 72px;
+  text-align: center;
+}
+
+.content {
+  font-family: 'Bree Serif', serif;
+  font-size: 36px;
+  text-align: center;
+}
+
+.color-one {
+  position: relative;
+  display: inline-block;
+  background-color: #f1fd14;
+}
+
+.color-two {
+  position: relative;
+  display: inline-block;
+  background-color: #fbfec2;
+}
+
+.color-three {
+  position: relative;
+  display: inline-block;
+  background-color: #10100a;
+  color: #fff;
+}
+
+.color-four {
+  position: relative;
+  display: inline-block;
+  background-color: #222321;
+  color: #fff;
+}
+
+.color-five {
+  position: relative;
+  display: inline-block;
+  background-color: #a3a57c;
+}
+
+.color-six {
+  position: relative;
+  display: inline-block;
+  background-color: #9fa09a;
+}
+
+.color-seven {
+  position: relative;
+  display: inline-block;
+  background-color: #fdfdf4;
+}
+
+.square {
+  height: 200px;
+  width: 200px;
+  margin: 20px;
+  text-align: center;
+}
