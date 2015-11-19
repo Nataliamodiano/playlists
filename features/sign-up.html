@@ -10,9 +10,10 @@
     <link rel="stylesheet" href="css/sign-up.css">
   </head>
   <body>
-<!--button-->
-    <a class="btn" type="button" data-toggle="modal" data-target="#signup">Sign Up</a> 
-<!--modal-->
+<!--sign up modal-->
+  <!--button-->
+    <a class="btn sign-up" type="button" data-toggle="modal" data-target="#signup">Sign Up</a> 
+  <!--modal-->
     <div class="modal fade" id="signup" tabindex="-1" role="dialog">
       <div class="modal-dialog" role="document">
         <div class="modal-header">
@@ -21,9 +22,11 @@
         </div>
         <div class="modal-body">
           <form>
-            <div><label class="info" for="username">Username:<input id="username" type="text" value="johndoe" maxlength="20"></label></div>
-            <div><label class="info" for="password">Password:<input id="password" type="password" value="12345678" maxlength="20"></label></div>
-            <div><label class="info" for="email">Email:<input id="email" type="text" value="email@example.com"></div>
+            <div class="form">
+              <div><label class="info" for="username">Username:<input id="username" type="text" value="johndoe" maxlength="20"></label></div>
+              <div><label class="info" for="password">Password:<input id="password" type="password" value="12345678" maxlength="20"></label></div>
+              <div><label class="info" for="email">Email:<input id="email" type="text" value="email@example.com"></div>
+            </div>
             <div><label class="info" for="checkbox"><input id="checkbox" type="checkbox" name="subscribe" checked="checked">Click here to subscribe for our monthly emails and promotions</label></div>
           </form>
         </div>
@@ -33,5 +36,6 @@
         </div>
       </div>
     </div>
+<!--end sign up modal-->
   </body>
 </html>
