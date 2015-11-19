@@ -7,14 +7,14 @@
     <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <link rel="stylesheet" href="default.css">
+    <link rel="stylesheet" href="css/sign-up.css">
   </head>
   <body>
 <!--button-->
     <a class="btn" type="button" data-toggle="modal" data-target="#signup">Sign Up</a> 
 <!--modal-->
-    <div class="modal fade" id="signup" role="dialog">
-      <div class="modal-content">
+    <div class="modal fade" id="signup" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
         <div class="modal-header">
           <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
           <h4 class="modal-title" id="modal-title">Sign Up</h4>
@@ -28,8 +28,10 @@
           </form>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Submit</button>
+          <button class="btn btn-default exit" type="button" data-dismiss="modal">Close</button>
+          <button class="btn btn-primary submit" type="button">Submit</button>
         </div>
+      </div>
+    </div>
   </body>
 </html>
