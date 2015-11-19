@@ -1,13 +1,18 @@
+body {
+  background-color: #222321;
+}
 /*Css for sign up*/
 .sign-up {
   font-family: 'Oxygen', helvetica, sans-serif;
   font-size: 24px;
+  color: #fdfdf4;
 }
 
 .modal-title {
   font-family: 'Oxygen', helvetica, sans-serif;
   font-size: 36px;
   text-align: center; 
+  color: #fdfdf4;
 }
 
 .info {
@@ -16,6 +21,7 @@
   margin: 15px 15px 15px 15px;
   display: block;
   text-align: right;
+  color: #fbfec2;
 }
 
 #checkbox {
@@ -30,6 +36,13 @@
   width: 100px;
   height: 30px;
   padding: 0px 0px 0px 0px;
+  background-color: #a3a57c;
+  color: #222321;
+  border-color: #a3a57c;
+}
+
+.close {
+  color: #fbfec2;
 }
 
 #username,
@@ -39,6 +52,7 @@
   border-radius: 10px;
   padding: 5px 5px 5px 5px;
   margin: 0px 5px 0px 10px;
+  background-color: #222321;
 }
 
 .form {
@@ -53,21 +67,25 @@
 #login {
   font-family: 'Oxygen', helvetica, sans-serif;
   font-size: 24px;
+  color: #fdfdf4;
 }
 
 .login-info {
   font-family: 'Bree Serif', serif;
   font-size: 18px;
-  margin: 15px 15px 15px 15px;
+  margin: 15px 0px 15px 15px;
   display: block;
+  text-align: center;
+  color: #fbfec2;
 }
 
 #username1,
 #password1 {
-  width: 200px;
+  width: 220px;
   border-radius: 10px;
   padding: 5px 5px 5px 5px;
-  margin: 0px 5px 0px 10px;
+  margin: 0px 0px 0px 10px;
+  background-color: #222321;
 }
 
 .submit1 {
@@ -78,6 +96,11 @@
   height: 30px;
   padding: 0px 0px 0px 0px;
   float: right;
-  margin-right: 30px;
+  background-color: #a3a57c;
+  color: #222321;
+  border-color: #a3a57c;
 }
 
+#checkbox1 {
+  margin: 0px 10px 0px 10px;
+}
