@@ -2,6 +2,12 @@ body {
   background-color: #222321;
 }
 /*Css for sign up*/
+.modal-dialog {
+  border: 2px solid;
+  border-color: #fdfdf4;
+  border-radius: 10px;
+}
+
 .sign-up {
   font-family: 'Oxygen', helvetica, sans-serif;
   font-size: 24px;
@@ -142,4 +148,24 @@ body {
   font-size: 16px;
   color: #10100a;
   background-color: #fdfdf4;
+  opacity: .9;
+}
+
+#checkbox2, 
+#checkbox3, 
+#checkbox4, 
+#checkbox5, 
+#checkbox6 {
+    margin: 0px 10px 0px 10px;
+}
+/*end css for contact us*/
+/*Css for pricing and features*/
+
+
+
+
+
+ul {
+  border-top: 1px solid #10100a;
+  list-style-image: url("images/star.png");
 }
