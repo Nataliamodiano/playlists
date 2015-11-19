@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <title></title>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta charset="UTF-8">
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="default.css">
+  </head>
+  <body>
+<!--button-->
+    <a class="btn" type="button" data-toggle="modal" data-target="#signup">Sign Up</a> 
+<!--modal-->
+    <div class="modal fade" id="signup" role="dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="modal-title">Sign Up</h4>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div><label class="info" for="username">Username:<input id="username" type="text" value="johndoe" maxlength="20"></label></div>
+            <div><label class="info" for="password">Password:<input id="password" type="password" value="12345678" maxlength="20"></label></div>
+            <div><label class="info" for="email">Email:<input id="email" type="text" value="email@example.com"></div>
+            <div><label class="info" for="checkbox"><input id="checkbox" type="checkbox" name="subscribe" checked="checked">Click here to subscribe for our monthly emails and promotions</label></div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Submit</button>
+        </div>
+  </body>
+</html>
