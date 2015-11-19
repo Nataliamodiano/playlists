@@ -160,12 +160,20 @@ body {
 }
 /*end css for contact us*/
 /*Css for pricing and features*/
+.text-center {
+  text-align: center;
+  font-family: 'Oxygen', helvetica, sans-serif;
+}
+
+#free, 
+#premium {
+  border: 1px solid black;
+}
 
 
 
-
-
-ul {
+#free-features,
+#premium-features {
   border-top: 1px solid #10100a;
   list-style-image: url("images/star.png");
 }
