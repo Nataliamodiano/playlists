@@ -28,6 +28,8 @@
   font-size: 18px;
   border-radius: 20px;
   width: 100px;
+  height: 30px;
+  padding: 0px 0px 0px 0px;
 }
 
 #username,
@@ -43,3 +45,39 @@
   padding-right: 110px;
 }
 /*end css for sign up*/
+/*Css for login*/
+.log-in {
+  width: 330px;
+}
+
+#login {
+  font-family: 'Oxygen', helvetica, sans-serif;
+  font-size: 24px;
+}
+
+.login-info {
+  font-family: 'Bree Serif', serif;
+  font-size: 18px;
+  margin: 15px 15px 15px 15px;
+  display: block;
+}
+
+#username1,
+#password1 {
+  width: 200px;
+  border-radius: 10px;
+  padding: 5px 5px 5px 5px;
+  margin: 0px 5px 0px 10px;
+}
+
+.submit1 {
+  font-family: 'Bree Serif', serif;
+  font-size: 18px;
+  border-radius: 20px;
+  width: 100px;
+  height: 30px;
+  padding: 0px 0px 0px 0px;
+  float: right;
+  margin-right: 30px;
+}
+
