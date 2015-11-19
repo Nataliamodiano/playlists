@@ -1,0 +1,44 @@
+/*Css for sign up*/
+.sign-up {
+  font-family: 'Oxygen', helvetica, sans-serif;
+  font-size: 24px;
+}
+
+.modal-title {
+  font-family: 'Oxygen', helvetica, sans-serif;
+  font-size: 36px;
+  text-align: center; 
+}
+
+.info {
+  font-family: 'Bree Serif', serif;
+  font-size: 18px;
+  margin: 15px 15px 15px 15px;
+  display: block;
+  text-align: right;
+}
+
+#checkbox {
+  margin: 0px 10px 0px 10px;
+}
+
+.exit,
+.submit {
+  font-family: 'Bree Serif', serif;
+  font-size: 18px;
+  border-radius: 20px;
+  width: 100px;
+}
+
+#username,
+#password,
+#email {
+  width: 250px;
+  border-radius: 10px;
+  padding: 5px 5px 5px 5px;
+  margin: 0px 5px 0px 10px;
+}
+
+.form {
+  padding-right: 110px;
+}
