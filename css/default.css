@@ -104,3 +104,42 @@ body {
 #checkbox1 {
   margin: 0px 10px 0px 10px;
 }
+/*end css for login*/
+/*Css for contct us*/
+.contact-us {
+  font-family: 'Oxygen', helvetica, sans-serif;
+  font-size: 24px;
+  color: #fdfdf4;
+}
+
+#name {
+  width: 250px;
+  border-radius: 10px;
+  padding: 5px 5px 5px 5px;
+  margin: 0px 5px 0px 10px;
+  background-color: #222321;
+}
+
+.concern {
+  font-family: 'Bree Serif', serif;
+  font-size: 18px;
+  margin: 15px 15px 15px 15px;
+  display: block;
+  color: #fbfec2;
+}
+
+#limit {
+  font-family: 'Bree Serif', serif;
+  font-size: 18px;
+  color: #fbfec2;
+}
+
+#textarea {
+  display: block;
+  width: 570px;
+  height: 200px;
+  font-family: 'Bree Serif', serif;
+  font-size: 16px;
+  color: #10100a;
+  background-color: #fdfdf4;
+}
