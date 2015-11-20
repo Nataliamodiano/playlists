@@ -1,6 +1,24 @@
 body {
   background-color: #222321;
 }
+.body {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+/*Css for header*/
+.navigation,
+.title {
+  font-family: 'Oxygen', helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: lighter;
+  color: #fdfdf4;
+}
+
+.logo {
+  color: #f1fd14;
+  font-size: 36px;
+}
+
 /*Css for sign up*/
 .modal-dialog {
   border: 2px solid;
@@ -68,7 +86,12 @@ body {
 /*end css for sign up*/
 /*Css for login*/
 .log-in {
-  width: 330px;
+  width: 340px;
+  float: right;
+  background-color: #222321;
+  border: 1px solid;
+  border-color: #fdfdf4;
+  border-radius: 10px;
 }
 
 #login {
@@ -106,6 +129,8 @@ body {
   background-color: #a3a57c;
   color: #222321;
   border-color: #a3a57c;
+  margin-bottom: 10px;
+  margin-right: 20px;
 }
 
 #checkbox1 {
@@ -173,12 +198,17 @@ body {
 
 #free, 
 #premium {
+  display: block;
   margin-top: 40px;
   margin-bottom: 40px; 
   background-color: #222321;
   border-radius: 10px;
   padding: 30px 30px 30px 30px;
   font-weight: 300;
+  max-width: 370px;
+  min-width: 280px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 #free {
@@ -204,6 +234,7 @@ body {
 
 #recommended {
   position: relative;
+  display: block;
   top: 40px;
   width: 100%;
   text-align: center;
@@ -214,14 +245,20 @@ body {
   border-color: #10100a;
   border-radius: 10px 10px 0px 0px;
   padding: 3px 0px 3px 0px;
+  max-width: 370px;
+  min-width: 280px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 #free-features,
 #premium-features {
   border-top: 1px solid #9fa09a;
+  border-bottom: 1px solid #9fa09a;
   list-style-image: url("images/star.png");
   font-size: 16px;
   padding-top: 20px;
+  padding-bottom: 20px;
   margin-top: 20px;
   margin-bottom: 30px;
   font-family: 'Bree Serif', serif;
@@ -229,6 +266,7 @@ body {
 
 .free-button,
 .premium-button {
+  display: block;
   font-family: 'Oxygen', helvetica, sans-serif;
   font-size: 18px;
   border-radius: 20px;
@@ -239,6 +277,9 @@ body {
   color: #222321;
   border-color: #f1fd14;
   width: 100%;
+  max-width: 250px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .free-button {
