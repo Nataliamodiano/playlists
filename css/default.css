@@ -6,6 +6,10 @@ body {
   padding-right: 0px;
 }
 /*Css for header*/
+.header {
+  background-color: #10100a;
+}
+
 .navigation,
 .title {
   font-family: 'Oxygen', helvetica, sans-serif;
@@ -18,7 +22,21 @@ body {
   color: #f1fd14;
   font-size: 36px;
 }
+/*end css for header*/
+/*Css for hero*/
+.hero {
+  height: 600px;
+}
 
+.neighbourhood{
+  background-image: url(../images/the-neighbourhood.jpg);
+  background-repeat: no-repeat;
+  max-width: 100%;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+/*end css for hero*/
 /*Css for sign up*/
 .modal-dialog {
   border: 2px solid;
