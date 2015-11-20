@@ -6,6 +6,7 @@ body {
   border: 2px solid;
   border-color: #fdfdf4;
   border-radius: 10px;
+  background-color: #10100a;
 }
 
 .sign-up {
@@ -36,7 +37,7 @@ body {
 
 .exit,
 .submit {
-  font-family: 'Bree Serif', serif;
+  font-family: 'Oxygen', helvetica, sans-serif;
   font-size: 18px;
   border-radius: 20px;
   width: 100px;
@@ -95,7 +96,7 @@ body {
 }
 
 .submit1 {
-  font-family: 'Bree Serif', serif;
+  font-family: 'Oxygen', helvetica, sans-serif;
   font-size: 18px;
   border-radius: 20px;
   width: 100px;
@@ -172,20 +173,76 @@ body {
 
 #free, 
 #premium {
-  margin: 40px 40px 0px 40px;
+  margin-top: 40px;
+  margin-bottom: 40px; 
   background-color: #222321;
+  border-radius: 10px;
+  padding: 30px 30px 30px 30px;
+  font-weight: 300;
 }
 
 #free {
   color: #a3a57c;
+  margin-top: 67px;
+  font-size: 24px;
+  border-top: 10px solid #a3a57c;
 }
 
 #premium {
   color: #f1fd14;
+  border-radius: 0px 0px 10px 10px;
+  font-size: 24px;
+}
+
+#trial {
+  font-size: 16px;
+}
+
+.small-down {
+  font-size: 14px;
+}
+
+#recommended {
+  position: relative;
+  top: 40px;
+  width: 100%;
+  text-align: center;
+  font-family: 'Oxygen', helvetica, sans-serif;
+  background-color: #f1fd14;
+  color: #10100a;
+  border: 1px solid;
+  border-color: #10100a;
+  border-radius: 10px 10px 0px 0px;
+  padding: 3px 0px 3px 0px;
 }
 
 #free-features,
 #premium-features {
-  border-top: 1px solid #10100a;
+  border-top: 1px solid #9fa09a;
   list-style-image: url("images/star.png");
+  font-size: 16px;
+  padding-top: 20px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-family: 'Bree Serif', serif;
+}
+
+.free-button,
+.premium-button {
+  font-family: 'Oxygen', helvetica, sans-serif;
+  font-size: 18px;
+  border-radius: 20px;
+  width: 100px;
+  height: 30px;
+  padding: 0px 0px 0px 0px;
+  background-color: #f1fd14;
+  color: #222321;
+  border-color: #f1fd14;
+  width: 100%;
+}
+
+.free-button {
+  background-color: #222321;
+  color: #a3a57c;
+  border-color: #a3a57c;
 }
