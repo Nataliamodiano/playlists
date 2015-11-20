@@ -160,17 +160,29 @@ body {
 }
 /*end css for contact us*/
 /*Css for pricing and features*/
+.pricing-features {
+  background-color: #fdfdf4;
+}
+
 .text-center {
   text-align: center;
   font-family: 'Oxygen', helvetica, sans-serif;
+  color: #10100a;
 }
 
 #free, 
 #premium {
-  border: 1px solid black;
+  margin: 40px 40px 0px 40px;
+  background-color: #222321;
 }
 
+#free {
+  color: #a3a57c;
+}
 
+#premium {
+  color: #f1fd14;
+}
 
 #free-features,
 #premium-features {
