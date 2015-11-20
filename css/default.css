@@ -87,7 +87,9 @@ body {
 /*Css for login*/
 .log-in {
   width: 340px;
-  float: right;
+  position: absolute;
+  top: 50px;
+  right: 10px;
   background-color: #222321;
   border: 1px solid;
   border-color: #fdfdf4;
