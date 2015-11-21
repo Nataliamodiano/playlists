@@ -8,6 +8,10 @@ body {
 /*Css for header*/
 .header {
   background-color: #10100a;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  margin: 0px 0px 0px 0px;
 }
 
 .navigation,
@@ -33,7 +37,6 @@ body {
   background-image: url(../images/neighbourhood.jpg);
   background-repeat: no-repeat;
   max-width: 100%;
-  background-position: center center;
   background-attachment: fixed;
   background-size: cover;
 }
@@ -50,6 +53,10 @@ body {
   font-family: 'Oxygen', helvetica, sans-serif;
   font-size: 24px;
   color: #fdfdf4;
+}
+
+.sign-up:hover {
+  color: #f1fd14;
 }
 
 .modal-title {
@@ -85,6 +92,16 @@ body {
   border-color: #a3a57c;
 }
 
+.submit:hover {
+  background-color: #f1fd14;
+  color: #10100a;
+}
+
+.exit:hover {
+  background-color: #10100a;
+  color: #fdfdf4;
+}
+
 .close {
   color: #fbfec2;
 }
@@ -113,6 +130,11 @@ body {
   border: 1px solid;
   border-color: #fdfdf4;
   border-radius: 10px;
+  z-index: 11;
+}
+
+#login:hover {
+  color: #f1fd14;
 }
 
 #login {
@@ -154,6 +176,11 @@ body {
   margin-right: 20px;
 }
 
+.submit1:hover {
+  background-color: #f1fd14;
+  color: #10100a;
+}
+
 #checkbox1 {
   margin: 0px 10px 0px 10px;
 }
@@ -163,6 +190,10 @@ body {
   font-family: 'Oxygen', helvetica, sans-serif;
   font-size: 24px;
   color: #fdfdf4;
+}
+
+.contact-us:hover {
+  color: #f1fd14;
 }
 
 #name {
@@ -309,8 +340,20 @@ body {
   margin-left: auto;
 }
 
+.premium-button:hover {
+  background-color: #10100a;
+  color: #f1fd14;
+  border-color: #f1fd14; 
+}
+
 .free-button {
   background-color: #222321;
+  color: #a3a57c;
+  border-color: #a3a57c;
+}
+
+.free-button:hover {
+  background-color: #10100a;
   color: #a3a57c;
   border-color: #a3a57c;
 }
@@ -324,7 +367,7 @@ body {
   text-align: center;
   font-family: 'Oxygen', helvetica, sans-serif;
   color: #fdfdf4;
-  margin-top: 60px;
+  margin-top: 40px;
 }
 
 .icon{
