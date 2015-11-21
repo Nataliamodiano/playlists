@@ -21,15 +21,16 @@ body {
 .logo {
   color: #f1fd14;
   font-size: 36px;
+  padding-left: 50px;
 }
 /*end css for header*/
 /*Css for hero*/
 .hero {
-  height: 600px;
+  height: 800px;
 }
 
 .neighbourhood{
-  background-image: url(../images/the-neighbourhood.jpg);
+  background-image: url(../images/neighbourhood.jpg);
   background-repeat: no-repeat;
   max-width: 100%;
   background-position: center center;
@@ -214,13 +215,14 @@ body {
   text-align: center;
   font-family: 'Oxygen', helvetica, sans-serif;
   color: #10100a;
+  margin-top: 60px;
 }
 
 #free, 
 #premium {
   display: block;
   margin-top: 40px;
-  margin-bottom: 40px; 
+  margin-bottom: 80px; 
   background-color: #222321;
   border-radius: 10px;
   padding: 30px 30px 30px 30px;
@@ -275,13 +277,18 @@ body {
 #premium-features {
   border-top: 1px solid #9fa09a;
   border-bottom: 1px solid #9fa09a;
-  list-style-image: url("images/star.png");
+  list-style: none;
   font-size: 16px;
   padding-top: 20px;
   padding-bottom: 20px;
   margin-top: 20px;
   margin-bottom: 30px;
   font-family: 'Bree Serif', serif;
+}
+.glyphicon-check{
+  margin-right: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .free-button,
@@ -306,4 +313,40 @@ body {
   background-color: #222321;
   color: #a3a57c;
   border-color: #a3a57c;
+}
+/*end css pricing and features*/
+/*Css for product description*/
+.product {
+  background-color: #222321;
+}
+
+.soundtrack {
+  text-align: center;
+  font-family: 'Oxygen', helvetica, sans-serif;
+  color: #fdfdf4;
+  margin-top: 60px;
+}
+
+.icon{
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.title1 {
+  font-family: 'Oxygen', helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: lighter;
+  color: #fdfdf4;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-family: 'Bree Serif', serif;
+  font-size: 18px;
+  color: #fdfdf4;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  margin-bottom: 60px;
 }
