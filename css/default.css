@@ -18,7 +18,7 @@ body {
 .title {
   font-family: 'Oxygen', helvetica, sans-serif;
   font-size: 24px;
-  font-weight: lighter;
+  font-weight: 300;
   color: #fdfdf4;
 }
 
@@ -53,6 +53,7 @@ body {
   font-family: 'Oxygen', helvetica, sans-serif;
   font-size: 24px;
   color: #fdfdf4;
+  font-weight: 300;
 }
 
 .sign-up:hover {
@@ -121,6 +122,17 @@ body {
 }
 /*end css for sign up*/
 /*Css for login*/
+#login {
+  font-family: 'Oxygen', helvetica, sans-serif;
+  font-size: 24px;
+  color: #fdfdf4;
+  font-weight: 300;
+}
+
+#login:hover {
+  color: #f1fd14;
+}
+
 .log-in {
   width: 340px;
   position: absolute;
@@ -131,16 +143,6 @@ body {
   border-color: #fdfdf4;
   border-radius: 10px;
   z-index: 11;
-}
-
-#login:hover {
-  color: #f1fd14;
-}
-
-#login {
-  font-family: 'Oxygen', helvetica, sans-serif;
-  font-size: 24px;
-  color: #fdfdf4;
 }
 
 .login-info {
@@ -190,6 +192,7 @@ body {
   font-family: 'Oxygen', helvetica, sans-serif;
   font-size: 24px;
   color: #fdfdf4;
+  font-weight: 300;
 }
 
 .contact-us:hover {
@@ -237,6 +240,43 @@ body {
     margin: 0px 10px 0px 10px;
 }
 /*end css for contact us*/
+/*Css for product description*/
+.product {
+  background-color: #222321;
+}
+
+.soundtrack {
+  text-align: center;
+  font-family: 'Oxygen', helvetica, sans-serif;
+  color: #fdfdf4;
+  margin-top: 40px;
+  font-weight: 300;
+}
+
+.icon{
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.title1 {
+  font-family: 'Oxygen', helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  color: #fdfdf4;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-family: 'Bree Serif', serif;
+  font-size: 18px;
+  color: #fdfdf4;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+/*end css for product description*/
 /*Css for pricing and features*/
 .pricing-features {
   background-color: #fdfdf4;
@@ -358,38 +398,102 @@ body {
   border-color: #a3a57c;
 }
 /*end css pricing and features*/
-/*Css for product description*/
-.product {
-  background-color: #222321;
-}
-
-.soundtrack {
-  text-align: center;
-  font-family: 'Oxygen', helvetica, sans-serif;
-  color: #fdfdf4;
-  margin-top: 40px;
-}
-
-.icon{
-  margin-top: 40px;
-  margin-bottom: 20px;
-}
-
-.title1 {
+/*Css to create a new playlist*/
+.create {
   font-family: 'Oxygen', helvetica, sans-serif;
   font-size: 24px;
-  font-weight: lighter;
+  color: #fdfdf4;
+  font-weight: 300;
+}
+
+.create:hover {
+  color: #f1fd14;
+}
+
+.title2 {
+  font-family: 'Oxygen', helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: 300;
   color: #fdfdf4;
   text-align: center;
   margin-bottom: 10px;
 }
 
-.description {
-  font-family: 'Bree Serif', serif;
-  font-size: 18px;
-  color: #fdfdf4;
-  padding-left: 10px;
-  padding-right: 10px;
-  text-align: center;
-  margin-bottom: 60px;
+.size {
+  position: absolute;
+  display: block;
+  height: 400px;
+  overflow: scroll;
+  border: 2px outset;
+  border-color: #a3a57c;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 600px;
+  width: 100%;
 }
+
+.list-header{
+  border: 2px outset;
+  border-color: #a3a57c;
+  border-bottom: none;
+  padding: 15px;
+  min-width: 619px;
+  width: 100%;
+}
+
+#playlist-name,
+#search {
+  border-radius: 10px;
+  background-color: #fbfec2;
+  border-color: #fdfdf4;
+  width: 200px;
+  font-family: 'Oxygen', helvetica, sans-serif;
+  padding-left: 5px;
+}
+
+.add{
+  float: right;
+  background-color: #f1fd14;
+  color: #10100a;
+  font-family: 'Oxygen', helvetica, sans-serif;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: 900;
+  border-radius: 45px;
+}
+
+#search{
+  float: right;
+}
+
+#size1 {
+  padding-right: 0px;
+  padding-left: 0px
+}
+
+.playlist{
+  background-color: #fdfdf4;
+  color: #10100a;
+  font-family: 'Bree Serif', serif;
+  min-width: 600px;
+  font-size: 18px;
+  width: 100%;
+}
+
+th {
+  font-family: 'Oxygen', helvetica, sans-serif;
+  border: 1px solid;
+  border-bottom: 2px solid;
+  border-color: #10100a; 
+  padding: 15px;
+}
+
+td {
+  border: 1px solid #10100a;
+  padding: 15px;
+}
+
+.even {
+  background-color: #9fa09a;
+}
+/*end css to create a new playlist*/
