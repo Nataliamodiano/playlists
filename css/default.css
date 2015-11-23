@@ -30,7 +30,7 @@ body {
 /*end css for header*/
 /*Css for hero*/
 .hero {
-  height: 800px;
+  height: 600px;
 }
 
 .neighbourhood{
@@ -422,7 +422,7 @@ body {
 .size {
   position: absolute;
   display: block;
-  height: 400px;
+  height: 500px;
   overflow: scroll;
   border: 2px outset;
   border-color: #a3a57c;
@@ -431,15 +431,17 @@ body {
   min-width: 600px;
   width: 100%;
   margin-bottom: 60px;
+  max-width: 1500px;
 }
 
-.list-header{
+.list-header {
   border: 2px outset;
   border-color: #a3a57c;
   border-bottom: none;
   padding: 15px;
   min-width: 619px;
   width: 100%;
+  max-width: 1500px;
 }
 
 #playlist-name,
@@ -452,7 +454,7 @@ body {
   padding-left: 5px;
 }
 
-.add{
+.add {
   float: right;
   background-color: #f1fd14;
   color: #10100a;
@@ -461,9 +463,14 @@ body {
   padding-bottom: 5px;
   font-weight: 900;
   border-radius: 45px;
+  height: 30px;
+  width: 30px;
+  padding: 0px 0px 0px 0px;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
-#search{
+#search {
   float: right;
 }
 
@@ -472,11 +479,11 @@ body {
   padding-left: 0px
 }
 
-.playlist{
+.playlist {
   background-color: #fdfdf4;
   color: #10100a;
   font-family: 'Bree Serif', serif;
-  min-width: 600px;
+  min-width: 625px;
   font-size: 18px;
   width: 100%;
 }
@@ -492,6 +499,11 @@ th {
 td {
   border: 1px solid #10100a;
   padding: 5px 10px 5px 15px;
+  font-size: 16px;
+}
+
+tr:hover {
+  background-color: #a3a57c;
 }
 
 .even {
@@ -500,11 +512,10 @@ td {
 
 .total {
   text-align: center;
-  margin: 5px 5px 5px 5px;
   font-family: 'Oxygen', helvetica, sans-serif;
   color: #fdfdf4;
   position: absolute;
-  top: 440px;
+  top: 540px;
   z-index: 30;
   background-color: #222321;
   width: 100%;
@@ -512,5 +523,114 @@ td {
   border: 2px outset;
   border-color: #a3a57c;
   border-top: none;
+  max-width: 1500px;
 }
 /*end css to create a new playlist*/
+/*Css to view/edit existing playlists*/
+.all {
+  font-family: 'Oxygen', helvetica, sans-serif;
+  font-size: 24px;
+  color: #fdfdf4;
+  font-weight: 300;
+}
+
+.all:hover {
+  color: #f1fd14;
+}
+
+.sidebar {
+  border: 2px outset;
+  border-color: #a3a57c;
+  border-right: none;
+  margin: 0px 0px 0px 0px;
+  height: 562px;
+  min-width: 200px;
+  font-family: 'Oxygen', helvetica, sans-serif;
+  padding: 0px 0px 0px 0px;
+  max-width: 230px;
+}
+
+.edit,
+.name,
+.share {
+  display: inline-block;
+  font-family: 'Oxygen', helvetica, sans-serif;
+  padding: 0px 0px 0px 0px;
+}
+
+.edit {
+  padding-right: 20px;
+  color: #f1fd14;
+}
+
+.edit:hover {
+  color: #a3a57c;
+}
+
+.share {
+  float: right;
+  margin-right: 10px;
+  margin-left: 10px;
+  height: 30px;
+  padding: 0px 10px 0px 10px;
+  border-radius: 20px;
+  background-color: #f1fd14;
+  color: #10100a;
+  font-weight: 600;
+}
+
+.name {
+  font-size: 18px; 
+  color: #fdfdf4;
+}
+
+.list {
+  font-size: 16px;
+  font-family: 'Oxygen', helvetica, sans-serif;
+  color: #fdfdf4;
+  list-style: none;
+  margin: 20px 0px 10px 0px; 
+  padding: 0px 0px 0px 0px;
+  border: 1px solid #fbfec2;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  margin-bottom: 120px;
+}
+
+.existing {
+  padding: 5px 0px 5px 15px; 
+  border-top: 1px solid #fbfec2;
+}
+
+.existing:hover {
+  background-color: #a3a57c;
+  border-radius: 10px;
+}
+
+.cd-cover {
+  width: 200px;
+  height: 200px;
+  margin-left:15px;
+  background-image: url(../images/cd-cover.jpg);
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.playing {
+  font-family: 'Oxygen', helvetica, sans-serif;
+  font-size: 14px;
+  color: #fdfdf4;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+} 
+
+.progress {
+  height: 30px;
+  width: 230px;
+  position: absolute;
+  bottom: 0px;
+  margin-bottom: 0px;
+}
