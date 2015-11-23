@@ -430,6 +430,7 @@ body {
   margin-right: auto;
   min-width: 600px;
   width: 100%;
+  margin-bottom: 60px;
 }
 
 .list-header{
@@ -485,15 +486,31 @@ th {
   border: 1px solid;
   border-bottom: 2px solid;
   border-color: #10100a; 
-  padding: 15px;
+  padding: 10px 15px 10px 15px;
 }
 
 td {
   border: 1px solid #10100a;
-  padding: 15px;
+  padding: 5px 10px 5px 15px;
 }
 
 .even {
   background-color: #9fa09a;
+}
+
+.total {
+  text-align: center;
+  margin: 5px 5px 5px 5px;
+  font-family: 'Oxygen', helvetica, sans-serif;
+  color: #fdfdf4;
+  position: absolute;
+  top: 440px;
+  z-index: 30;
+  background-color: #222321;
+  width: 100%;
+  margin: 0px 0px 0px 0px;
+  border: 2px outset;
+  border-color: #a3a57c;
+  border-top: none;
 }
 /*end css to create a new playlist*/
