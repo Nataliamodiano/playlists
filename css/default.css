@@ -399,6 +399,10 @@ body {
 }
 /*end css pricing and features*/
 /*Css to create a new playlist*/
+.new-playlist {
+  height: 670px;
+}
+
 .create {
   font-family: 'Oxygen', helvetica, sans-serif;
   font-size: 24px;
@@ -488,6 +492,10 @@ body {
   width: 100%;
 }
 
+table {
+  margin-bottom: 15px;
+}
+
 th {
   font-family: 'Oxygen', helvetica, sans-serif;
   border: 1px solid;
@@ -538,6 +546,12 @@ tr:hover {
   color: #f1fd14;
 }
 
+.content {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .sidebar {
   border: 2px outset;
   border-color: #a3a57c;
@@ -584,10 +598,17 @@ tr:hover {
   color: #fdfdf4;
 }
 
+.title3 {
+  font-size: 18px; 
+  color: #fdfdf4;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
 .list {
   font-size: 16px;
   font-family: 'Oxygen', helvetica, sans-serif;
-  color: #fdfdf4;
+  color: #a3a57c;
   list-style: none;
   margin: 20px 0px 10px 0px; 
   padding: 0px 0px 0px 0px;
@@ -595,12 +616,17 @@ tr:hover {
   border-top: none;
   border-right: none;
   border-left: none;
-  margin-bottom: 120px;
+  height: 205px;
+  overflow: scroll;
 }
 
 .existing {
   padding: 5px 0px 5px 15px; 
   border-top: 1px solid #fbfec2;
+}
+
+.last-existing {
+  border-bottom: 1px solid #fbfec2;
 }
 
 .existing:hover {
@@ -634,3 +660,4 @@ tr:hover {
   bottom: 0px;
   margin-bottom: 0px;
 }
+/*end css to create a new playlist*/
