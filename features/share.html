@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <title>Playshare</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta charset="UTF-8">
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/default.css">
+  </head>
+  <body class="container-fluid">
+    <a class="btn share1" type="button" data-toggle="modal" data-target="#share-users">Share</a>
+    <!--modal-->
+    <div class="modal fade" id="share-users" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-header">
+          <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="modal-title">Share with existing user</h4>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="select-user">
+              <input class="search" type="search" value="Search for user">
+              <input class="btn add" type="submit" value="+">
+              <div class="user-list">
+                <div class="selected-users">Selected Users</div>
+                <ul>
+                  <li>User 1</li>
+                  <li>User 2</li>
+                  <li>User 3</li>
+                </ul>
+              </div>
+            </div>
+            <div class="existing-playlists">
+              <div>Select playlists you wish to share
+                <ul>
+                  <li><label class="checkbox list1" for="checkbox7"><input id="checkbox7" type="checkbox" checked="checked">Playlist 1</label></li>
+                  <li><label class="checkbox list1" for="checkbox8"><input id="checkbox8" type="checkbox">Road Trips</label></li>
+                  <li><label class="checkbox list1" for="checkbox9"><input id="checkbox9" type="checkbox">Favorites</label></li>
+                  <li><label class="checkbox list1" for="checkbox10"><input id="checkbox10" type="checkbox">Best Friend</label></li>
+                  <li><label class="checkbox list1" for="checkbox11"><input id="checkbox11" type="checkbox">Background Music</label></li>
+                  <li><label class="checkbox list1" for="checkbox12"><input id="checkbox12" type="checkbox">Without vocals</label></li>
+                  <li><label class="checkbox list1" for="checkbox13"><input id="checkbox13" type="checkbox">Classical</label></li>
+                  <li><label class="checkbox list1" for="checkbox14"><input id="checkbox14" type="checkbox">Top 100's</label></li>
+                  <li><label class="checkbox list1" for="checkbox15"><input id="checkbox15" type="checkbox">90's Music</label></li>
+                  <li><label class="checkbox list1" for="checkbox16"><input id="checkbox16" type="checkbox">Playlist for mom</label></li>
+                <ul>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-default exit" type="button" data-dismiss="modal">Close</button>
+          <button class="btn btn-primary submit" type="button">Share</button>
+        </div>
+      </div>
+    </div>
+<!--end share modal-->
+  </body>
+</html>

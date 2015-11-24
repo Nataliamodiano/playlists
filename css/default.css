@@ -10,7 +10,7 @@ body {
   background-color: #10100a;
   position: fixed;
   width: 100%;
-  z-index: 10;
+  z-index: 40;
   margin: 0px 0px 0px 0px;
 }
 
@@ -33,7 +33,7 @@ body {
   height: 600px;
 }
 
-.neighbourhood{
+.neighbourhood {
   background-image: url(../images/neighbourhood.jpg);
   background-repeat: no-repeat;
   max-width: 100%;
@@ -249,11 +249,11 @@ body {
   text-align: center;
   font-family: 'Oxygen', helvetica, sans-serif;
   color: #fdfdf4;
-  margin-top: 40px;
+  margin-top: 100px;
   font-weight: 300;
 }
 
-.icon{
+.icon {
   margin-top: 40px;
   margin-bottom: 20px;
 }
@@ -274,9 +274,35 @@ body {
   padding-left: 10px;
   padding-right: 10px;
   text-align: center;
-  margin-bottom: 60px;
+  margin-bottom: 100px;
 }
 /*end css for product description*/
+/*Css for concert image*/
+.concert {
+  background-image: url(../images/concert.jpg);
+  height: 600px;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.everyone {
+  margin-top: 220px;
+  margin-left: 100px;
+  font-family: 'Oxygen', helvetica, sans-serif;
+  font-size: 72px;
+  color: #f1fd14
+}
+
+.everyone-sm {
+  font-family: 'Oxygen', helvetica, sans-serif;
+  font-size: 36px;
+  color: #f1fd14;
+  margin-top: 20px;
+  margin-left: 340px;
+}
+/*end css for concert image*/
 /*Css for pricing and features*/
 .pricing-features {
   background-color: #fdfdf4;
@@ -356,7 +382,8 @@ body {
   margin-bottom: 30px;
   font-family: 'Bree Serif', serif;
 }
-.glyphicon-check{
+
+.glyphicon-check {
   margin-right: 10px;
   margin-top: 5px;
   margin-bottom: 5px;
@@ -421,6 +448,7 @@ body {
   color: #fdfdf4;
   text-align: center;
   margin-bottom: 10px;
+  margin-top: 40px;
 }
 
 .size {
@@ -448,8 +476,8 @@ body {
   max-width: 1500px;
 }
 
-#playlist-name,
-#search {
+#playlist-name, 
+.search {
   border-radius: 10px;
   background-color: #fbfec2;
   border-color: #fdfdf4;
@@ -460,27 +488,31 @@ body {
 
 .add {
   float: right;
-  background-color: #f1fd14;
-  color: #10100a;
+  border: 2px solid #f1fd14;
+  background-color: #222321;
+  color: #f1fd14;
   font-family: 'Oxygen', helvetica, sans-serif;
-  padding-top: 5px;
-  padding-bottom: 5px;
   font-weight: 900;
   border-radius: 45px;
   height: 30px;
   width: 30px;
-  padding: 0px 0px 0px 0px;
+  padding: 3px 18px 7px 10px;
   margin-right: 10px;
   margin-left: 10px;
+  margin-top: -2px;
 }
 
-#search {
+.add:hover {
+  color: #fbfec2;
+}
+
+.search {
   float: right;
 }
 
 #size1 {
   padding-right: 0px;
-  padding-left: 0px
+  padding-left: 0px;
 }
 
 .playlist {
@@ -546,12 +578,6 @@ tr:hover {
   color: #f1fd14;
 }
 
-.content {
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-}
-
 .sidebar {
   border: 2px outset;
   border-color: #a3a57c;
@@ -578,19 +604,22 @@ tr:hover {
 }
 
 .edit:hover {
-  color: #a3a57c;
+  color: #fdfdf4;
 }
 
 .share {
+  background-image: url(../images/share-sm.png);
+  background-repeat: no-repeat; 
+  background-position: center center;
   float: right;
   margin-right: 10px;
   margin-left: 10px;
   height: 30px;
-  padding: 0px 10px 0px 10px;
-  border-radius: 20px;
-  background-color: #f1fd14;
-  color: #10100a;
-  font-weight: 600;
+  padding: 15px 15px 15px 15px;
+  border-radius: 45px;
+  border: 2px solid #f1fd14;
+  background-color: #222321;
+  margin-top: -5px;
 }
 
 .name {
@@ -630,7 +659,7 @@ tr:hover {
 }
 
 .existing:hover {
-  background-color: #a3a57c;
+  background-color: #fdfdf4;
   border-radius: 10px;
 }
 
@@ -660,4 +689,64 @@ tr:hover {
   bottom: 0px;
   margin-bottom: 0px;
 }
+
+.spacing {
+  margin-bottom: 70px;
+}
 /*end css to create a new playlist*/
+/*Css for share modal*/
+.share1 {
+  font-family: 'Oxygen', helvetica, sans-serif;
+  font-size: 24px;
+  color: #fdfdf4;
+  font-weight: 300;
+}
+
+.share1:hover {
+  color: #f1fd14;
+}
+
+.select-user {
+  font-family: 'Oxygen', helvetica, sans-serif;
+  height: 300px;
+  background-color: #222321;
+  padding: 10px 10px 10px 10px;
+  border: 1px solid #fdfdf4;
+  height: 200px;
+  overflow: scroll;
+}
+
+.selected-users {
+  font-family: 'Oxygen', helvetica, sans-serif;
+  font-size: 18px;
+}
+
+.user-list {
+  color: #fbfec2;
+  padding: 10px 10px 10px 10px;
+  font-family: 'Bree Serif', serif;
+  font-size: 18px;
+}
+
+.existing-playlists {
+  font-family: 'Oxygen', helvetica, sans-serif;
+  height: 300px;
+  background-color: #222321;
+  padding: 10px 10px 10px 10px;
+  border: 1px solid #fdfdf4;
+  height: 200px;
+  overflow: scroll;
+  color: #fbfec2;
+  font-size: 18px;
+}
+
+.list1 {
+  font-family: 'Bree Serif', serif;
+  font-weight: 300;
+}
+/*end css for share modal*/
+/*footer*/
+.footer {
+  height: 100px;
+  background-color: #10100a;
+}

@@ -23,8 +23,8 @@
           <a class="btn create" type="button">Create</a>
         </div>
         <div class="navigation col-sm-2 col-md-2 col-lg-2">
-          <!--contact us modal button-->
-          <a class="btn contact-us" data-toggle="modal" data-target="#contactus" type="button">Contact Us</a> 
+          <!--share button-->
+          <a class="btn share1" type="button" data-toggle="modal" data-target="#share-users">Share</a>
         </div>
         <div class="navigation col-sm-2 col-md-1 col-lg-1"></div>
         <div class="navigation col-sm-1 col-md-2 col-lg-1">
@@ -141,6 +141,18 @@
     </div>
 <!--end product description-->
 
+<!--concert image-->
+    <div class="container-fluid">  
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-12 concert">
+          <div class="col-sm-1 col-md-1 col-lg-1"></div>
+          <div class="everyone col-sm-6 col-md-6 col-lg-6">Music for everyone!</div>
+          <div class="everyone-sm col-sm-6 col-md-6 col-lg-6">All the music you'll ever need is right here.</div>
+        </div>
+      <div>
+    </div>
+<!--end concert image-->
+
 <!--pricing and features-->
     <div class="container-fluid">
       <div class="row pricing-features">
@@ -204,7 +216,7 @@
           <!--header- enter new playlist name, search for songs, add button-->
           <div class="list-header">
             <input id="playlist-name" type="text" value="Enter playlist name">
-            <input id="search" type="search" value="Search for song">
+            <input class="search" type="search" value="Search for song">
             <input class="btn add" type="submit" value="+">
           </div>
           <!--list of song names, artist, time, album-->
@@ -312,7 +324,7 @@
     
 <!--all playlists-->
     <div class="row">
-      <div class="col-sm-12 col-md-12 col-lg-12">
+      <div class="col-sm-12 col-md-12 col-lg-12 spacing">
         <div class="h1 title2">View/Edit Playlists</div>
         <div class="col-sm-1 col-md-1 log-lg-1"></div>
         <div class="col-sm-2 col-md-2 log-lg-2 sidebar">
@@ -343,9 +355,9 @@
           <div class="list-header">
             <a class="btn edit" type="button">edit</a>
             <div class="name">Playlist Name</div>
-            <input id="search" type="search" value="Search for song">
+            <input class="search" type="search" value="Search for song">
             <input class="btn add" type="submit" value="+">
-            <button class="btn share" type="button">Share</button>
+            <button class="btn share" type="button"></button>
           </div>
           <!--list of song names, artist, time, album-->
           <div class="row size">
@@ -449,5 +461,59 @@
       </div>
     </div>
 <!--end all playlists-->
+
+<!--share modal-->
+    <div class="modal fade" id="share-users" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-header">
+          <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="modal-title">Share with existing user</h4>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="select-user">
+              <input class="search" type="search" value="Search for user">
+              <input class="btn add" type="submit" value="+">
+              <div class="user-list">
+                <div class="selected-users">Selected Users</div>
+                <ul>
+                  <li>User 1</li>
+                  <li>User 2</li>
+                  <li>User 3</li>
+                </ul>
+              </div>
+            </div>
+            <div class="existing-playlists">
+              <div>Select playlists you wish to share
+                <ul>
+                  <li><label class="checkbox list1" for="checkbox7"><input id="checkbox7" type="checkbox" checked="checked">Playlist 1</label></li>
+                  <li><label class="checkbox list1" for="checkbox8"><input id="checkbox8" type="checkbox">Road Trips</label></li>
+                  <li><label class="checkbox list1" for="checkbox9"><input id="checkbox9" type="checkbox">Favorites</label></li>
+                  <li><label class="checkbox list1" for="checkbox10"><input id="checkbox10" type="checkbox">Best Friend</label></li>
+                  <li><label class="checkbox list1" for="checkbox11"><input id="checkbox11" type="checkbox">Background Music</label></li>
+                  <li><label class="checkbox list1" for="checkbox12"><input id="checkbox12" type="checkbox">Without vocals</label></li>
+                  <li><label class="checkbox list1" for="checkbox13"><input id="checkbox13" type="checkbox">Classical</label></li>
+                  <li><label class="checkbox list1" for="checkbox14"><input id="checkbox14" type="checkbox">Top 100's</label></li>
+                  <li><label class="checkbox list1" for="checkbox15"><input id="checkbox15" type="checkbox">90's Music</label></li>
+                  <li><label class="checkbox list1" for="checkbox16"><input id="checkbox16" type="checkbox">Playlist for mom</label></li>
+                <ul>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-default exit" type="button" data-dismiss="modal">Close</button>
+          <button class="btn btn-primary submit" type="button">Share</button>
+        </div>
+      </div>
+    </div>
+<!--end share modal-->
+
+<!--footer-->
+    <div class="row footer">
+      <!--contact us modal button-->
+          <a class="btn contact-us" data-toggle="modal" data-target="#contactus" type="button">Contact Us</a> 
+    </div>
+<!--end footer-->
   </body>
 </html>
