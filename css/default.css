@@ -30,7 +30,7 @@ body {
 /*end css for header*/
 /*Css for hero*/
 .hero {
-  height: 600px;
+  height: 800px;
 }
 
 .neighbourhood {
@@ -41,6 +41,247 @@ body {
   background-size: cover;
 }
 /*end css for hero*/
+/*Css for hero animation*/
+.image-loader {
+  position: relative;
+  left: 70%;
+  top: 150px;
+  padding: 0px 0px 30px 30px;
+  width: 600px; 
+  height: 600px;
+} 
+
+.image-loader1 {
+  left: 70%;
+  top: 150px;
+  padding: 0px 0px 30px 30px;
+  margin-right: 0px; 
+  background-color: rgba(0,0,0, 0.5);
+  height: 409px;
+  width: 409px;
+  border-radius: 50%;
+} 
+
+.featured-circle {
+  position: relative;
+  border: 3px solid #fdfdf4;
+  border-radius: 50%;
+  background-image: url(../images/store.jpg);
+  background-position: center center;
+  height: 414px;
+  width: 414px;
+  background-repeat: no-repeat; 
+  background-color: rgba(0,0,0, 0.5);
+  z-index: 50;
+}
+
+.artist-playlist {
+  position: absolute;
+  text-align: center;
+  margin-top: -280px;
+  font-family: 'Oxygen', helvetica, sans-serif;
+  font-size: 24px;
+  color: #fdfdf4;
+}
+
+.selection {
+  position: absolute;
+  text-align: center;
+  margin-top: -210px;
+  font-family: 'Oxygen', helvetica, sans-serif;
+  font-size: 18px;
+  color: #fdfdf4;
+}
+
+.view {
+  position: absolute;
+  text-align: center;
+  margin-top: 40px;
+  margin-left: 155px;
+  font-family: 'Oxygen', helvetica, sans-serif;
+  font-size: 18px;
+  border-radius: 20px;
+  width: 100px;
+  height: 30px;
+  padding: 0px 0px 0px 0px;
+  background-color: #a3a57c;
+  color: #222321;
+  border-color: #a3a57c;
+}
+
+.view:hover {
+  background-color: #222321;
+  border: #222321;
+}
+
+.featured-circle1 {
+  position: relative;
+  top: -500px;
+  right: 60px;
+  border: 3px solid #fdfdf4;
+  border-radius: 50%;
+  background-image: url(../images/rutherford.jpg);
+  background-position: center center;
+  height: 190px;
+  width: 190px;
+  background-repeat: no-repeat; 
+  background-color: rgba(0,0,0, 0.5);
+}
+
+.image-loader2 {
+  left: 70%;
+  top: 150px;
+  padding: 0px 0px 30px 30px;
+  margin-right: 0px; 
+  background-color: rgba(0,0,0, 0.5);
+  height: 185px;
+  width: 185px;
+  border-radius: 50%;
+} 
+
+.featured-circle2 {
+  position: relative;
+  top: -430px;
+  right: 130px;
+  border: 3px solid #fdfdf4;
+  border-radius: 50%;
+  background-image: url(../images/neighbourhood-logo.jpg);
+  background-position: center center;
+  height: 105px;
+  width: 105px;
+  background-repeat: no-repeat; 
+  background-color: rgba(0,0,0, 0.5);
+}
+
+.image-loader3 {
+  left: 70%;
+  top: 150px;
+  padding: 0px 0px 30px 30px;
+  margin-right: 0px; 
+  background-color: rgba(0,0,0, 0.5);
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+} 
+
+.featured-circle3 {
+  position: relative;
+  top: -310px;
+  right: -20px;
+  border: 3px solid #fdfdf4;
+  border-radius: 50%;
+  background-image: url(../images/neighbourhood-concert.jpg);
+  background-position: center center;
+  height: 105px;
+  width: 105px;
+  background-repeat: no-repeat; 
+  background-color: rgba(0,0,0, 0.5);
+}
+
+.image-loader4 {
+  left: 70%;
+  top: 150px;
+  padding: 0px 0px 30px 30px;
+  margin-right: 0px; 
+  background-color: rgba(0,0,0, 0.5);
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+} 
+
+.featured-circle4 {
+  position: relative;
+  top: -450px;
+  right: -370px;
+  border: 3px solid #fdfdf4;
+  border-radius: 50%;
+  background-image: url(../images/sold-out.jpg);
+  background-position: center center;
+  height: 75px;
+  width: 75px;
+  background-repeat: no-repeat; 
+  background-color: rgba(0,0,0, 0.5);
+}
+
+.image-loader5 {
+  left: 70%;
+  top: 150px;
+  padding: 0px 0px 30px 30px;
+  margin-right: 0px; 
+  background-color: rgba(0,0,0, 0.5);
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+} 
+
+.featured-circle5 {
+  position: relative;
+  top: -890px;
+  right: -320px;
+  border: 3px solid #fdfdf4;
+  border-radius: 50%;
+  background-image: url(../images/band.jpg);
+  background-position: center center;
+  height: 130px;
+  width: 130px;
+  background-repeat: no-repeat; 
+  background-color: rgba(0,0,0, 0.5);
+  z-index: 45;
+}
+
+.image-loader6 {
+  left: 70%;
+  top: 150px;
+  padding: 0px 0px 30px 30px;
+  margin-right: 0px; 
+  background-color: rgba(0,0,0, 0.5);
+  height: 125px;
+  width: 125px;
+  border-radius: 50%;
+} 
+
+ /* hover final state */ 
+.featured-circle1 {
+  animation: slide 5s infinite;
+  animation-delay: 1s;
+}
+ 
+.featured-circle2 {
+  animation: slide 5s infinite;
+  animation-delay: 3s;
+}
+
+.featured-circle3 {
+  animation: slide 5s infinite;
+  animation-delay: 2s;
+}
+
+.featured-circle4 {
+  animation: slide 5s infinite;
+  animation-delay: 5s;
+}
+
+.featured-circle5 {
+  animation: slide 5s infinite;
+  animation-delay: 4s;
+}
+
+@keyframes slide {
+  0% {
+    transform: translate3d(0px, 0px, 0px);
+    animation-timing-function: cubic-bezier;
+  }
+  50% {
+    transform: translate3d(0px, 30px, 0px);
+    animation-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+  }
+  100% {
+    transform: translate3d(0px, 0px, 0px);
+    animation-timing-function: cubic-bezier;
+  }
+}
+
+/*end css for hero animation*/
 /*Css for sign up*/
 .modal-dialog {
   border: 2px solid;
@@ -142,7 +383,7 @@ body {
   border: 1px solid;
   border-color: #fdfdf4;
   border-radius: 10px;
-  z-index: 11;
+  z-index: 41;
 }
 
 .login-info {
@@ -749,4 +990,5 @@ tr:hover {
 .footer {
   height: 100px;
   background-color: #10100a;
+  padding: 20px 20px 30px 20px;
 }
