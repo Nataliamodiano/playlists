@@ -242,45 +242,264 @@ body {
 
  /* hover final state */ 
 .featured-circle1 {
+  -webkit-animation: slide 5s infinite;
+  -moz-animation: slide 5s infinite;
+  -ms-animation: slide 5s infinite;
+  -o-animation: slide 5s infinite;
   animation: slide 5s infinite;
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  -ms-animation-delay: 1s;
+  -o-animation-delay: 1s;
   animation-delay: 1s;
 }
  
 .featured-circle2 {
+  -webkit-animation: slide 5s infinite;
+  -moz-animation: slide 5s infinite;
+  -ms-animation: slide 5s infinite;
+  -o-animation: slide 5s infinite;
   animation: slide 5s infinite;
+  -webkit-animation-delay: 3s;
+  -moz-animation-delay: 3s;
+  -ms-animation-delay: 3s;
+  -o-animation-delay: 3s;
   animation-delay: 3s;
 }
 
 .featured-circle3 {
+  -webkit-animation: slide 5s infinite;
+  -moz-animation: slide 5s infinite;
+  -ms-animation: slide 5s infinite;
+  -o-animation: slide 5s infinite;
   animation: slide 5s infinite;
+  -webkit-animation-delay: 2s;
+  -moz-animation-delay: 2s;
+  -ms-animation-delay: 2s;
+  -o-animation-delay: 2s;
   animation-delay: 2s;
 }
 
 .featured-circle4 {
+  -webkit-animation: slide 5s infinite;
+  -moz-animation: slide 5s infinite;
+  -ms-animation: slide 5s infinite;
+  -o-animation: slide 5s infinite;
   animation: slide 5s infinite;
+  -webkit-animation-delay: 5s;
+  -moz-animation-delay: 5s;
+  -ms-animation-delay: 5s;
+  -o-animation-delay: 5s;
   animation-delay: 5s;
 }
 
 .featured-circle5 {
+  -webkit-animation: slide 5s infinite;
+  -moz-animation: slide 5s infinite;
+  -ms-animation: slide 5s infinite;
+  -o-animation: slide 5s infinite;
   animation: slide 5s infinite;
+  -webkit-animation-delay: 4s;
+  -moz-animation-delay: 4s;
+  -ms-animation-delay: 4s;
+  -o-animation-delay: 4s;
   animation-delay: 4s;
+}
+
+@-webkit-keyframes slide {
+  0% {
+    -webkit-transform: translate3d(0px, 0px, 0px);
+    -moz-transform: translate3d(0px, 0px, 0px);
+    -ms-transform: translate3d(0px, 0px, 0px);
+    -o-transform: translate3d(0px, 0px, 0px);
+    transform: translate3d(0px, 0px, 0px);
+    -webkit-animation-timing-function: cubic-bezier;
+    -moz-animation-timing-function: cubic-bezier;
+    -ms-animation-timing-function: cubic-bezier;
+    -o-animation-timing-function: cubic-bezier;
+    animation-timing-function: cubic-bezier;
+  }
+  50% {
+    -webkit-transform: translate3d(0px, 30px, 0px);
+    -moz-transform: translate3d(0px, 30px, 0px);
+    -ms-transform: translate3d(0px, 30px, 0px);
+    -o-transform: translate3d(0px, 30px, 0px);
+    transform: translate3d(0px, 30px, 0px);
+    -webkit-animation-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+    -moz-animation-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+    -ms-animation-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+    -o-animation-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+    animation-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+  }
+  100% {
+    -webkit-transform: translate3d(0px, 0px, 0px);
+    -moz-transform: translate3d(0px, 0px, 0px);
+    -ms-transform: translate3d(0px, 0px, 0px);
+    -o-transform: translate3d(0px, 0px, 0px);
+    transform: translate3d(0px, 0px, 0px);
+    -webkit-animation-timing-function: cubic-bezier;
+    -moz-animation-timing-function: cubic-bezier;
+    -ms-animation-timing-function: cubic-bezier;
+    -o-animation-timing-function: cubic-bezier;
+    animation-timing-function: cubic-bezier;
+  }
+}
+
+@-moz-keyframes slide {
+  0% {
+    -webkit-transform: translate3d(0px, 0px, 0px);
+    -moz-transform: translate3d(0px, 0px, 0px);
+    -ms-transform: translate3d(0px, 0px, 0px);
+    -o-transform: translate3d(0px, 0px, 0px);
+    transform: translate3d(0px, 0px, 0px);
+    -webkit-animation-timing-function: cubic-bezier;
+    -moz-animation-timing-function: cubic-bezier;
+    -ms-animation-timing-function: cubic-bezier;
+    -o-animation-timing-function: cubic-bezier;
+    animation-timing-function: cubic-bezier;
+  }
+  50% {
+    -webkit-transform: translate3d(0px, 30px, 0px);
+    -moz-transform: translate3d(0px, 30px, 0px);
+    -ms-transform: translate3d(0px, 30px, 0px);
+    -o-transform: translate3d(0px, 30px, 0px);
+    transform: translate3d(0px, 30px, 0px);
+    -webkit-animation-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+    -moz-animation-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+    -ms-animation-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+    -o-animation-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+    animation-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+  }
+  100% {
+    -webkit-transform: translate3d(0px, 0px, 0px);
+    -moz-transform: translate3d(0px, 0px, 0px);
+    -ms-transform: translate3d(0px, 0px, 0px);
+    -o-transform: translate3d(0px, 0px, 0px);
+    transform: translate3d(0px, 0px, 0px);
+    -webkit-animation-timing-function: cubic-bezier;
+    -moz-animation-timing-function: cubic-bezier;
+    -ms-animation-timing-function: cubic-bezier;
+    -o-animation-timing-function: cubic-bezier;
+    animation-timing-function: cubic-bezier;
+  }
+}
+
+@-ms-keyframes slide {
+  0% {
+    -webkit-transform: translate3d(0px, 0px, 0px);
+    -moz-transform: translate3d(0px, 0px, 0px);
+    -ms-transform: translate3d(0px, 0px, 0px);
+    -o-transform: translate3d(0px, 0px, 0px);
+    transform: translate3d(0px, 0px, 0px);
+    -webkit-animation-timing-function: cubic-bezier;
+    -moz-animation-timing-function: cubic-bezier;
+    -ms-animation-timing-function: cubic-bezier;
+    -o-animation-timing-function: cubic-bezier;
+    animation-timing-function: cubic-bezier;
+  }
+  50% {
+    -webkit-transform: translate3d(0px, 30px, 0px);
+    -moz-transform: translate3d(0px, 30px, 0px);
+    -ms-transform: translate3d(0px, 30px, 0px);
+    -o-transform: translate3d(0px, 30px, 0px);
+    transform: translate3d(0px, 30px, 0px);
+    -webkit-animation-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+    -moz-animation-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+    -ms-animation-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+    -o-animation-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+    animation-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+  }
+  100% {
+    -webkit-transform: translate3d(0px, 0px, 0px);
+    -moz-transform: translate3d(0px, 0px, 0px);
+    -ms-transform: translate3d(0px, 0px, 0px);
+    -o-transform: translate3d(0px, 0px, 0px);
+    transform: translate3d(0px, 0px, 0px);
+    -webkit-animation-timing-function: cubic-bezier;
+    -moz-animation-timing-function: cubic-bezier;
+    -ms-animation-timing-function: cubic-bezier;
+    -o-animation-timing-function: cubic-bezier;
+    animation-timing-function: cubic-bezier;
+  }
+}
+
+@-o-keyframes slide {
+  0% {
+    -webkit-transform: translate3d(0px, 0px, 0px);
+    -moz-transform: translate3d(0px, 0px, 0px);
+    -ms-transform: translate3d(0px, 0px, 0px);
+    -o-transform: translate3d(0px, 0px, 0px);
+    transform: translate3d(0px, 0px, 0px);
+    -webkit-animation-timing-function: cubic-bezier;
+    -moz-animation-timing-function: cubic-bezier;
+    -ms-animation-timing-function: cubic-bezier;
+    -o-animation-timing-function: cubic-bezier;
+    animation-timing-function: cubic-bezier;
+  }
+  50% {
+    -webkit-transform: translate3d(0px, 30px, 0px);
+    -moz-transform: translate3d(0px, 30px, 0px);
+    -ms-transform: translate3d(0px, 30px, 0px);
+    -o-transform: translate3d(0px, 30px, 0px);
+    transform: translate3d(0px, 30px, 0px);
+    -webkit-animation-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+    -moz-animation-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+    -ms-animation-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+    -o-animation-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+    animation-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+  }
+  100% {
+    -webkit-transform: translate3d(0px, 0px, 0px);
+    -moz-transform: translate3d(0px, 0px, 0px);
+    -ms-transform: translate3d(0px, 0px, 0px);
+    -o-transform: translate3d(0px, 0px, 0px);
+    transform: translate3d(0px, 0px, 0px);
+    -webkit-animation-timing-function: cubic-bezier;
+    -moz-animation-timing-function: cubic-bezier;
+    -ms-animation-timing-function: cubic-bezier;
+    -o-animation-timing-function: cubic-bezier;
+    animation-timing-function: cubic-bezier;
+  }
 }
 
 @keyframes slide {
   0% {
+    -webkit-transform: translate3d(0px, 0px, 0px);
+    -moz-transform: translate3d(0px, 0px, 0px);
+    -ms-transform: translate3d(0px, 0px, 0px);
+    -o-transform: translate3d(0px, 0px, 0px);
     transform: translate3d(0px, 0px, 0px);
+    -webkit-animation-timing-function: cubic-bezier;
+    -moz-animation-timing-function: cubic-bezier;
+    -ms-animation-timing-function: cubic-bezier;
+    -o-animation-timing-function: cubic-bezier;
     animation-timing-function: cubic-bezier;
   }
   50% {
+    -webkit-transform: translate3d(0px, 30px, 0px);
+    -moz-transform: translate3d(0px, 30px, 0px);
+    -ms-transform: translate3d(0px, 30px, 0px);
+    -o-transform: translate3d(0px, 30px, 0px);
     transform: translate3d(0px, 30px, 0px);
+    -webkit-animation-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+    -moz-animation-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+    -ms-animation-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+    -o-animation-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
     animation-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
   }
   100% {
+    -webkit-transform: translate3d(0px, 0px, 0px);
+    -moz-transform: translate3d(0px, 0px, 0px);
+    -ms-transform: translate3d(0px, 0px, 0px);
+    -o-transform: translate3d(0px, 0px, 0px);
     transform: translate3d(0px, 0px, 0px);
+    -webkit-animation-timing-function: cubic-bezier;
+    -moz-animation-timing-function: cubic-bezier;
+    -ms-animation-timing-function: cubic-bezier;
+    -o-animation-timing-function: cubic-bezier;
     animation-timing-function: cubic-bezier;
   }
 }
-
 /*end css for hero animation*/
 /*Css for sign up*/
 .modal-dialog {
@@ -526,6 +745,7 @@ body {
   max-width: 100%;
   background-attachment: fixed;
   background-size: cover;
+  background-color: #10100a;
 }
 
 .everyone {
