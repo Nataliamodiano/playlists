@@ -593,7 +593,7 @@ body {
   color: #f1fd14;
 }
 
-.log-in {
+#log-in {
   width: 340px;
   position: absolute;
   top: 50px;
@@ -740,26 +740,34 @@ body {
 /*Css for concert image*/
 .concert {
   background-image: url(../images/concert.jpg);
-  height: 600px;
+  height: 700px;
   background-repeat: no-repeat;
   max-width: 100%;
-  background-attachment: fixed;
   background-size: cover;
   background-color: #10100a;
+  padding: 0px 0px 0px 0px;
+}
+
+.concert-cover{
+  height: 700px;
+  max-width: 100%;
+  background-color: #10100a;
+  opacity: .6;
+  padding: 0px 0px 0px 0px;
 }
 
 .everyone {
-  margin-top: 220px;
+  margin-top: 200px;
   margin-left: 100px;
   font-family: 'Oxygen', helvetica, sans-serif;
   font-size: 72px;
-  color: #f1fd14
+  color: #fdfdf4;
 }
 
 .everyone-sm {
   font-family: 'Oxygen', helvetica, sans-serif;
   font-size: 36px;
-  color: #f1fd14;
+  color: #fdfdf4;
   margin-top: 20px;
   margin-left: 340px;
 }

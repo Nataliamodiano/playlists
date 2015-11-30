@@ -16,24 +16,24 @@
         <div class="navigation logo col-sm-3 col-md-3 col-lg-3"><strong>PLAY</strong>SHARE</div>
         <div class="navigation col-sm-2 col-md-2 col-lg-2">
           <!--all playlists button-->
-          <a class="btn all" type="button">All</a>
+          <a class="btn all center-block" type="button">All</a>
         </div>
         <div class="navigation col-sm-2 col-md-2 col-lg-2">
           <!--create a new playlist button-->
-          <a class="btn create" type="button">Create</a>
+          <a class="btn create center-block" type="button">Create</a>
         </div>
         <div class="navigation col-sm-2 col-md-2 col-lg-2">
           <!--share button-->
-          <a class="btn share1" type="button" data-toggle="modal" data-target="#share-users">Share</a>
+          <a class="btn share1 center-block" type="button" data-toggle="modal" data-target="#share-users">Share</a>
         </div>
         <div class="navigation col-sm-2 col-md-1 col-lg-1"></div>
         <div class="navigation col-sm-1 col-md-2 col-lg-1">
           <!--sign up modal button-->
-          <a class="btn sign-up" data-toggle="modal" data-target="#signup" type="button">Sign Up</a> 
+          <a class="btn sign-up center-block" data-toggle="modal" data-target="#signup" type="button">Sign Up</a> 
         </div>
         <div class="navigation col-sm-2 col-md-2 col-lg-1">
           <!--login button-->
-          <a class="btn" id="login" type="button">Login</a>
+          <a class="btn center-block" id="login" type="button">Login</a>
         </div>
       </div>
     </div>
@@ -95,11 +95,13 @@
 <!--end sign up modal-->
 
 <!--login-->
-    <div class="log-in">
-      <div><label class="login-info" for="username1">Username:<input id="username1" type="text" value="johndoe" maxlength="20"></label></div>
-      <div><label class="login-info" for="password1">Password:<input id="password1" type="password" value="12345678" maxlength="20"></label></div>
-      <div><label class="login-info" for="checkbox1"><input id="checkbox1" type="checkbox" checked="checked">Click here to stay logged in</label></div>
-      <div><button class="btn btn-primary submit1" type="button">Login</button></div>
+    <div class="hidden">
+      <div id="log-in">
+        <div><label class="login-info" for="username1">Username:<input id="username1" type="text" value="johndoe" maxlength="20"></label></div>
+        <div><label class="login-info" for="password1">Password:<input id="password1" type="password" value="12345678" maxlength="20"></label></div>
+        <div><label class="login-info" for="checkbox1"><input id="checkbox1" type="checkbox" checked="checked">Click here to stay logged in</label></div>
+        <div><button class="btn btn-primary submit1" type="button">Login</button></div>
+      </div>
     </div>
 <!--end login-->
 
@@ -169,9 +171,11 @@
     <div class="container-fluid">  
       <div class="row">
         <div class="col-sm-12 col-md-12 col-lg-12 concert">
-          <div class="col-sm-1 col-md-1 col-lg-1"></div>
-          <div class="everyone col-sm-6 col-md-6 col-lg-6">Music for everyone!</div>
-          <div class="everyone-sm col-sm-6 col-md-6 col-lg-6">All the music you'll ever need is right here.</div>
+          <div class="concert-cover">
+            <div class="col-sm-1 col-md-1 col-lg-2"></div>
+            <div class="everyone col-sm-6 col-md-6 col-lg-6">Music for everyone!</div>
+            <div class="everyone-sm col-sm-6 col-md-6 col-lg-6">All the music you'll ever need is right here.</div>
+          </div>
         </div>
       <div>
     </div>
@@ -184,7 +188,6 @@
           <div class="h1 text-center">Listen free or <strong>subscribe</strong> to <strong>PLAY</strong>SHARE <strong>Premium</strong>.</div>
           <div class="col-sm-2 col-md-2 col-lg-2"></div>
           <div class="col-sm-8 col-md-8 col-lg-8">
-            <div class="col-sm-1 col-md-1 col-lg-1"></div>
             <div class="col-sm-12 col-md-5 col-lg-5">
               <div id="free">
                 <div>Free</div>
@@ -202,7 +205,8 @@
                 <button class="btn btn-default free-button" type="button">Get Free</button>
               </div>
             </div>
-            <div class="col-sm-12 col-md-5 col-lg-5">
+            <div class="col-sm-1 col-md-1 col-lg-1"></div>
+            <div class="col-sm-12 col-md-6 col-lg-6">
               <div>
                 <div id="recommended">RECOMMENDED</div>
                 <div id="premium">
@@ -223,7 +227,6 @@
                 </div>
               </div>
             </div>
-            <div class="col-sm-1 col-md-1 col-lg-1"></div>
           </div>
           <div class="col-sm-2 col-md-2 col-lg-2"></div>
         </div>
@@ -232,256 +235,260 @@
 <!--end pricing and features-->
 
 <!--create new playlist-->
-    <div class="row new-playlist">
-      <div class="col-sm-12 col-md-12 col-lg-12">
-        <div class="h1 title2">New Playlist</div>
-        <div class="col-sm-2 col-md-2 log-lg-2"></div>
-        <div class="col-sm-8 col-md-8 log-lg-8" id="size1">
-          <!--header- enter new playlist name, search for songs, add button-->
-          <div class="list-header">
-            <input id="playlist-name" type="text" value="Enter playlist name">
-            <input class="search" type="search" value="Search for song">
-            <input class="btn add" type="submit" value="+">
+    <div class="hidden">
+      <div class="row new-playlist">
+        <div class="col-sm-12 col-md-12 col-lg-12">
+          <div class="h1 title2">New Playlist</div>
+          <div class="col-sm-2 col-md-2 log-lg-2"></div>
+          <div class="col-sm-8 col-md-8 log-lg-8" id="size1">
+            <!--header- enter new playlist name, search for songs, add button-->
+            <div class="list-header">
+              <input id="playlist-name" type="text" value="Enter playlist name">
+              <input class="search" type="search" value="Search for song">
+              <input class="btn add" type="submit" value="+">
+            </div>
+            <!--list of song names, artist, time, album-->
+            <div class="row size">
+              <table class="playlist">
+                <tr>
+                  <th>Song</th>
+                  <th>Artist</th>
+                  <th>Time</th>
+                  <th>Album</th>
+                </tr>
+                <tr>
+                  <td>Anything, Anything (I'll Give You)</td>
+                  <td>Dramarama</td>
+                  <td>3:19</td>
+                  <td>Cinéma Vérité</td>
+                </tr>
+                <tr class="even">
+                  <td>The Con</td>
+                  <td>Tegan and Sara</td>
+                  <td>3:31</td>
+                  <td>The Con</td>
+                </tr>
+                <tr>
+                  <td>Something's Gotta Give</td>
+                  <td>All Time Low</td>
+                  <td>3:10</td>
+                  <td>Future Hearts</td>
+                </tr>
+                <tr class="even">
+                  <td>First</td>
+                  <td>Cold War Kids</td>
+                  <td>3:20</td>
+                  <td>Hold My Home</td>
+                </tr>
+                <tr>
+                  <td>Grace Is Gone</td>
+                  <td>Dave Matthews Band</td>
+                  <td>5:12</td>
+                  <td>Busted Stuff</td>
+                </tr>
+                <tr class="even">
+                  <td>Stressed Out</td>
+                  <td>Twenty One Pilots</td>
+                  <td>3:51</td>
+                  <td>Blurryface</td>
+                </tr>
+                <tr>
+                  <td>Dark Blue</td>
+                  <td>Jack's Mannequin</td>
+                  <td>4:14</td>
+                  <td>Everything In Transit</td>
+                </tr>
+                <tr class="even">
+                  <td>Swim</td>
+                  <td>Jack's Mannequin</td>
+                  <td>4:16</td>
+                  <td>The Glass Passenger</td>
+                </tr>
+                <tr>
+                  <td>Trojans</td>
+                  <td>Atlas Genius</td>
+                  <td>3:36</td>
+                  <td>When Was It Now</td>
+                </tr>
+                <tr class="even">
+                  <td>What's My Age Again?</td>
+                  <td>Blink-182</td>
+                  <td>2:28</td>
+                  <td>Enema of the State</td>
+                </tr>
+                <tr>
+                  <td>Have Faith In Me</td>
+                  <td>A Day To Remember</td>
+                  <td>3:09</td>
+                  <td>Homesick</td>
+                </tr>
+                <tr class="even">
+                  <td>Save Tonight</td>
+                  <td>Eagle Eye Cherry</td>
+                  <td>4:00</td>
+                  <td>Desireless</td>
+                </tr>
+                <tr>
+                  <td>The '59 Sound</td>
+                  <td>The Gaslight Anthem</td>
+                  <td>3:13</td>
+                  <td>The '59 Sound</td>
+                </tr>
+                <tr class="even">
+                  <td>Sweater Weather</td>
+                  <td>The Neighbourhood</td>
+                  <td>4:13</td>
+                  <td>I Love You</td>
+                </tr>
+              </table>
+            </div>
+            <!--footer- number of songs-->
+            <div class="total">14 Songs</div>
           </div>
-          <!--list of song names, artist, time, album-->
-          <div class="row size">
-            <table class="playlist">
-              <tr>
-                <th>Song</th>
-                <th>Artist</th>
-                <th>Time</th>
-                <th>Album</th>
-              </tr>
-              <tr>
-                <td>Anything, Anything (I'll Give You)</td>
-                <td>Dramarama</td>
-                <td>3:19</td>
-                <td>Cinéma Vérité</td>
-              </tr>
-              <tr class="even">
-                <td>The Con</td>
-                <td>Tegan and Sara</td>
-                <td>3:31</td>
-                <td>The Con</td>
-              </tr>
-              <tr>
-                <td>Something's Gotta Give</td>
-                <td>All Time Low</td>
-                <td>3:10</td>
-                <td>Future Hearts</td>
-              </tr>
-              <tr class="even">
-                <td>First</td>
-                <td>Cold War Kids</td>
-                <td>3:20</td>
-                <td>Hold My Home</td>
-              </tr>
-              <tr>
-                <td>Grace Is Gone</td>
-                <td>Dave Matthews Band</td>
-                <td>5:12</td>
-                <td>Busted Stuff</td>
-              </tr>
-              <tr class="even">
-                <td>Stressed Out</td>
-                <td>Twenty One Pilots</td>
-                <td>3:51</td>
-                <td>Blurryface</td>
-              </tr>
-              <tr>
-                <td>Dark Blue</td>
-                <td>Jack's Mannequin</td>
-                <td>4:14</td>
-                <td>Everything In Transit</td>
-              </tr>
-              <tr class="even">
-                <td>Swim</td>
-                <td>Jack's Mannequin</td>
-                <td>4:16</td>
-                <td>The Glass Passenger</td>
-              </tr>
-              <tr>
-                <td>Trojans</td>
-                <td>Atlas Genius</td>
-                <td>3:36</td>
-                <td>When Was It Now</td>
-              </tr>
-              <tr class="even">
-                <td>What's My Age Again?</td>
-                <td>Blink-182</td>
-                <td>2:28</td>
-                <td>Enema of the State</td>
-              </tr>
-              <tr>
-                <td>Have Faith In Me</td>
-                <td>A Day To Remember</td>
-                <td>3:09</td>
-                <td>Homesick</td>
-              </tr>
-              <tr class="even">
-                <td>Save Tonight</td>
-                <td>Eagle Eye Cherry</td>
-                <td>4:00</td>
-                <td>Desireless</td>
-              </tr>
-              <tr>
-                <td>The '59 Sound</td>
-                <td>The Gaslight Anthem</td>
-                <td>3:13</td>
-                <td>The '59 Sound</td>
-              </tr>
-              <tr class="even">
-                <td>Sweater Weather</td>
-                <td>The Neighbourhood</td>
-                <td>4:13</td>
-                <td>I Love You</td>
-              </tr>
-            </table>
-          </div>
-          <!--footer- number of songs-->
-          <div class="total">14 Songs</div>
+          <div class="col-sm-2 col-md-2 log-lg-2"></div>
         </div>
-        <div class="col-sm-2 col-md-2 log-lg-2"></div>
       </div>
     </div>
 <!--end create a new playlist-->
     
 <!--all playlists-->
-    <div class="row">
-      <div class="col-sm-12 col-md-12 col-lg-12 spacing">
-        <div class="h1 title2">View/Edit Playlists</div>
-        <div class="col-sm-1 col-md-1 log-lg-1"></div>
-        <div class="col-sm-2 col-md-2 log-lg-2 sidebar">
-          <div>
-            <div class="title3">Playlist<input class="btn add" type="submit" value="+"></div>
-            <ul class="list">
-              <li class="existing">Playlist 1</li>
-              <li class="existing">Road Trips</li>
-              <li class="existing">Favorites</li>
-              <li class="existing">Best Friend</li>
-              <li class="existing">Background Music</li>
-              <li class="existing">Without vocals</li>
-              <li class="existing">Classical</li>
-              <li class="existing">Top 100's</li>
-              <li class="existing">90's Music</li>
-              <li class="existing last-existing">Playlist for mom</li>
-            </ul>
+    <div class="hidden">
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-12 spacing">
+          <div class="h1 title2">View/Edit Playlists</div>
+          <div class="col-sm-1 col-md-1 log-lg-1"></div>
+          <div class="col-sm-2 col-md-2 log-lg-2 sidebar">
+            <div>
+              <div class="title3">Playlist<input class="btn add" type="submit" value="+"></div>
+              <ul class="list">
+                <li class="existing">Playlist 1</li>
+                <li class="existing">Road Trips</li>
+                <li class="existing">Favorites</li>
+                <li class="existing">Best Friend</li>
+                <li class="existing">Background Music</li>
+                <li class="existing">Without vocals</li>
+                <li class="existing">Classical</li>
+                <li class="existing">Top 100's</li>
+                <li class="existing">90's Music</li>
+                <li class="existing last-existing">Playlist for mom</li>
+              </ul>
+            </div>
+            <div>
+              <div class="cd-cover" alt="CD Cover Image"></div>
+              <div class="playing">Currently Playing Song</div>
+              <div class="playing">Artist</div>
+              <div class="playing">Audio controls and progress bar</div>
+            </div>
           </div>
-          <div>
-            <div class="cd-cover" alt="CD Cover Image"></div>
-            <div class="playing">Currently Playing Song</div>
-            <div class="playing">Artist</div>
-            <div class="playing">Audio controls and progress bar</div>
+          <div class="col-sm-8 col-md-8 log-lg-8" id="size1">
+            <!--header- enter new playlist name, search for songs, add button-->
+            <div class="list-header">
+              <a class="btn edit" type="button">edit</a>
+              <div class="name">Playlist Name</div>
+              <input class="search" type="search" value="Search for song">
+              <input class="btn add" type="submit" value="+">
+              <button class="btn share" type="button"></button>
+            </div>
+            <!--list of song names, artist, time, album-->
+            <div class="row size">
+              <table class="playlist">
+                <tr>
+                  <th>Song</th>
+                  <th>Artist</th>
+                  <th>Time</th>
+                  <th>Album</th>
+                </tr>
+                <tr>
+                  <td>Anything, Anything (I'll Give You)</td>
+                  <td>Dramarama</td>
+                  <td>3:19</td>
+                  <td>Cinéma Vérité</td>
+                </tr>
+                <tr class="even">
+                  <td>The Con</td>
+                  <td>Tegan and Sara</td>
+                  <td>3:31</td>
+                  <td>The Con</td>
+                </tr>
+                <tr>
+                  <td>Something's Gotta Give</td>
+                  <td>All Time Low</td>
+                  <td>3:10</td>
+                  <td>Future Hearts</td>
+                </tr>
+                <tr class="even">
+                  <td>First</td>
+                  <td>Cold War Kids</td>
+                  <td>3:20</td>
+                  <td>Hold My Home</td>
+                </tr>
+                <tr>
+                  <td>Grace Is Gone</td>
+                  <td>Dave Matthews Band</td>
+                  <td>5:12</td>
+                  <td>Busted Stuff</td>
+                </tr>
+                <tr class="even">
+                  <td>Stressed Out</td>
+                  <td>Twenty One Pilots</td>
+                  <td>3:51</td>
+                  <td>Blurryface</td>
+                </tr>
+                <tr>
+                  <td>Dark Blue</td>
+                  <td>Jack's Mannequin</td>
+                  <td>4:14</td>
+                  <td>Everything In Transit</td>
+                </tr>
+                <tr class="even">
+                  <td>Swim</td>
+                  <td>Jack's Mannequin</td>
+                  <td>4:16</td>
+                  <td>The Glass Passenger</td>
+                </tr>
+                <tr>
+                  <td>Trojans</td>
+                  <td>Atlas Genius</td>
+                  <td>3:36</td>
+                  <td>When Was It Now</td>
+                </tr>
+                <tr class="even">
+                  <td>What's My Age Again?</td>
+                  <td>Blink-182</td>
+                  <td>2:28</td>
+                  <td>Enema of the State</td>
+                </tr>
+                <tr>
+                  <td>Have Faith In Me</td>
+                  <td>A Day To Remember</td>
+                  <td>3:09</td>
+                  <td>Homesick</td>
+                </tr>
+                <tr class="even">
+                  <td>Save Tonight</td>
+                  <td>Eagle Eye Cherry</td>
+                  <td>4:00</td>
+                  <td>Desireless</td>
+                </tr>
+                <tr>
+                  <td>The '59 Sound</td>
+                  <td>The Gaslight Anthem</td>
+                  <td>3:13</td>
+                  <td>The '59 Sound</td>
+                </tr>
+                <tr class="even">
+                  <td>Sweater Weather</td>
+                  <td>The Neighbourhood</td>
+                  <td>4:13</td>
+                  <td>I Love You</td>
+                </tr>
+              </table>
+            </div>
+            <!--footer- number of songs-->
+            <div class="total">14 Songs</div>
           </div>
+          <div class="col-sm-1 col-md-1 log-lg-1"></div>
         </div>
-        <div class="col-sm-8 col-md-8 log-lg-8" id="size1">
-          <!--header- enter new playlist name, search for songs, add button-->
-          <div class="list-header">
-            <a class="btn edit" type="button">edit</a>
-            <div class="name">Playlist Name</div>
-            <input class="search" type="search" value="Search for song">
-            <input class="btn add" type="submit" value="+">
-            <button class="btn share" type="button"></button>
-          </div>
-          <!--list of song names, artist, time, album-->
-          <div class="row size">
-            <table class="playlist">
-              <tr>
-                <th>Song</th>
-                <th>Artist</th>
-                <th>Time</th>
-                <th>Album</th>
-              </tr>
-              <tr>
-                <td>Anything, Anything (I'll Give You)</td>
-                <td>Dramarama</td>
-                <td>3:19</td>
-                <td>Cinéma Vérité</td>
-              </tr>
-              <tr class="even">
-                <td>The Con</td>
-                <td>Tegan and Sara</td>
-                <td>3:31</td>
-                <td>The Con</td>
-              </tr>
-              <tr>
-                <td>Something's Gotta Give</td>
-                <td>All Time Low</td>
-                <td>3:10</td>
-                <td>Future Hearts</td>
-              </tr>
-              <tr class="even">
-                <td>First</td>
-                <td>Cold War Kids</td>
-                <td>3:20</td>
-                <td>Hold My Home</td>
-              </tr>
-              <tr>
-                <td>Grace Is Gone</td>
-                <td>Dave Matthews Band</td>
-                <td>5:12</td>
-                <td>Busted Stuff</td>
-              </tr>
-              <tr class="even">
-                <td>Stressed Out</td>
-                <td>Twenty One Pilots</td>
-                <td>3:51</td>
-                <td>Blurryface</td>
-              </tr>
-              <tr>
-                <td>Dark Blue</td>
-                <td>Jack's Mannequin</td>
-                <td>4:14</td>
-                <td>Everything In Transit</td>
-              </tr>
-              <tr class="even">
-                <td>Swim</td>
-                <td>Jack's Mannequin</td>
-                <td>4:16</td>
-                <td>The Glass Passenger</td>
-              </tr>
-              <tr>
-                <td>Trojans</td>
-                <td>Atlas Genius</td>
-                <td>3:36</td>
-                <td>When Was It Now</td>
-              </tr>
-              <tr class="even">
-                <td>What's My Age Again?</td>
-                <td>Blink-182</td>
-                <td>2:28</td>
-                <td>Enema of the State</td>
-              </tr>
-              <tr>
-                <td>Have Faith In Me</td>
-                <td>A Day To Remember</td>
-                <td>3:09</td>
-                <td>Homesick</td>
-              </tr>
-              <tr class="even">
-                <td>Save Tonight</td>
-                <td>Eagle Eye Cherry</td>
-                <td>4:00</td>
-                <td>Desireless</td>
-              </tr>
-              <tr>
-                <td>The '59 Sound</td>
-                <td>The Gaslight Anthem</td>
-                <td>3:13</td>
-                <td>The '59 Sound</td>
-              </tr>
-              <tr class="even">
-                <td>Sweater Weather</td>
-                <td>The Neighbourhood</td>
-                <td>4:13</td>
-                <td>I Love You</td>
-              </tr>
-            </table>
-          </div>
-          <!--footer- number of songs-->
-          <div class="total">14 Songs</div>
-        </div>
-        <div class="col-sm-1 col-md-1 log-lg-1"></div>
       </div>
     </div>
 <!--end all playlists-->
@@ -538,22 +545,24 @@
       <div class="col-sm-2 col-md-2 col-lg-2"></div>
       <div class="navigation col-sm-2 col-md-2 col-lg-2">
         <!--all playlists button-->
-        <a class="btn all" type="button">All</a>
+        <a class="btn all center-block" type="button">All</a>
       </div>
       <div class="navigation col-sm-2 col-md-2 col-lg-2">
         <!--create a new playlist button-->
-        <a class="btn create" type="button">Create</a>
+        <a class="btn create center-block" type="button">Create</a>
       </div>
       <div class="navigation col-sm-2 col-md-2 col-lg-2">
         <!--share button-->
-        <a class="btn share1" type="button" data-toggle="modal" data-target="#share-users">Share</a>
+        <a class="btn share1 center-block" type="button" data-toggle="modal" data-target="#share-users">Share</a>
       </div>
       <div class="col-sm-2 col-md-2 col-lg-2">
         <!--contact us modal button-->
-        <a class="btn contact-us" data-toggle="modal" data-target="#contactus" type="button">Contact Us</a>
+        <a class="btn contact-us center-block" data-toggle="modal" data-target="#contactus" type="button">Contact Us</a>
       </div>
       <div class="col-sm-2 col-md-2 col-lg-2"></div>
     </div>
 <!--end footer-->
+
+  <script src="app.js" type="text/javascript"></script>
   </body>
 </html>
