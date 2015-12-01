@@ -12,26 +12,26 @@
   <body class="container-fluid body">
 <!--header-->
     <div class="row header">
-      <div class="col-sm-12 col-md-12 col-lg-12">
-        <div class="navigation logo col-sm-3 col-md-3 col-lg-3"><strong>PLAY</strong>SHARE</div>
-        <div class="navigation col-sm-2 col-md-2 col-lg-2">
+      <div class="col-sm-12">
+        <div class="navigation logo col-sm-3"><strong>PLAY</strong>SHARE</div>
+        <div class="navigation col-sm-2">
           <!--all playlists button-->
           <a class="btn all center-block" type="button">All</a>
         </div>
-        <div class="navigation col-sm-2 col-md-2 col-lg-2">
+        <div class="navigation col-sm-2">
           <!--create a new playlist button-->
           <a class="btn create center-block" type="button">Create</a>
         </div>
-        <div class="navigation col-sm-2 col-md-2 col-lg-2">
+        <div class="navigation col-sm-2">
           <!--share button-->
           <a class="btn share1 center-block" type="button" data-toggle="modal" data-target="#share-users">Share</a>
         </div>
-        <div class="navigation col-sm-2 col-md-1 col-lg-1"></div>
+        <div class="navigation col-sm-2 col-md-1"></div>
         <div class="navigation col-sm-1 col-md-2 col-lg-1">
           <!--sign up modal button-->
           <a class="btn sign-up center-block" data-toggle="modal" data-target="#signup" type="button">Sign Up</a> 
         </div>
-        <div class="navigation col-sm-2 col-md-2 col-lg-1">
+        <div class="navigation col-sm-2 col-lg-1">
           <!--login button-->
           <a class="btn center-block" id="login" type="button">Login</a>
         </div>
@@ -41,7 +41,7 @@
 
 <!--hero-->
     <div class="row">
-      <div class="col-sm-12 col-md-12 col-lg-12 hero neighbourhood" alt="Image of the band The Neighbourhood."></div>
+      <div class="col-sm-12 hero neighbourhood" alt="Image of the band The Neighbourhood."></div>
       <div class="image-loader">
         <div class="featured-circle">
           <div class="image-loader1"></div>
@@ -79,9 +79,9 @@
         <div class="modal-body">
           <form>
             <div class="form">
-              <div><label class="info" for="username">Username:<input id="username" type="text" value="johndoe" maxlength="20"></label></div>
-              <div><label class="info" for="password">Password:<input id="password" type="password" value="12345678" maxlength="20"></label></div>
-              <div><label class="info" for="email">Email:<input id="email" type="text" value="email@example.com"></div>
+              <div><label class="info" for="username">Username:<input id="username" type="text" placeholder="johndoe" maxlength="20"></label></div>
+              <div><label class="info" for="password">Password:<input id="password" type="password" placeholder="12345678" maxlength="20"></label></div>
+              <div><label class="info" for="email">Email:<input id="email" type="text" placeholder="email@example.com"></div>
             </div>
             <div><label class="info" for="checkbox"><input id="checkbox" type="checkbox" checked="checked">Click here to subscribe for our monthly emails and promotions</label></div>
           </form>
@@ -95,10 +95,10 @@
 <!--end sign up modal-->
 
 <!--login-->
-    <div id="hidden">
+    <div class="collapse">
       <div id="log-in">
-        <div><label class="login-info" for="username1">Username:<input id="username1" type="text" value="johndoe" maxlength="20"></label></div>
-        <div><label class="login-info" for="password1">Password:<input id="password1" type="password" value="12345678" maxlength="20"></label></div>
+        <div><label class="login-info" for="username1">Username:<input id="username1" type="text" placeholder="johndoe" maxlength="20"></label></div>
+        <div><label class="login-info" for="password1">Password:<input id="password1" type="password" placeholder="12345678" maxlength="20"></label></div>
         <div><label class="login-info" for="checkbox1"><input id="checkbox1" type="checkbox" checked="checked">Click here to stay logged in</label></div>
         <div><button class="btn btn-primary submit1" type="button">Login</button></div>
       </div>
@@ -116,8 +116,8 @@
         <div class="modal-body">
           <form>
             <div class="form">
-              <div><label class="info" for="name">Name:<input id="name" type="text" value="John Doe" maxlength="25"></label></div>
-              <div><label class="info" for="email">Email:<input id="email" type="text" value="email@example.com"></div>
+              <div><label class="info" for="name">Name:<input id="name" type="text" placeholder="John Doe" maxlength="25"></label></div>
+              <div><label class="info" for="email">Email:<input id="email" type="text" placeholder="email@example.com"></div>
             </div>
             <div class="concern">Please select your concern</div>
             <div><label class="concern" for="checkbox2"><input id="checkbox2" type="checkbox" checked="checked">I have a question</label></div>
@@ -126,7 +126,7 @@
             <div><label class="concern" for="checkbox5"><input id="checkbox5" type="checkbox">I am having trouble creating a playlist</label></div>
             <div><label class="concern" for="checkbox6"><input id="checkbox6" type="checkbox">Other</label></div>
             <div class="concern">Please explain your concern in detail:</div>
-            <textarea id="textarea">Start typing...</textarea>
+            <textarea id="textarea" placeholder="Start typing..."></textarea>
             <div id="limit"><superscript>*</superscript>1000 word limit</div>
           </form>
         </div>
@@ -141,27 +141,27 @@
 <!--product description-->
     <div class="container-fluid">
       <div class="row product">
-        <div class="col-sm-12 col-md-12 col-lg-12">
+        <div class="col-sm-12">
           <div class="h1 soundtrack">Create life's soundtrack.</div>
-          <div class="col-sm-2 col-md-2 col-lg-2"></div>
-          <div class="col-sm-8 col-md-8 col-lg-8">
-            <div class="col-sm-12 col-md-4 col-lg-4">
+          <div class="col-sm-2"></div>
+          <div class="col-sm-8">
+            <div class="col-sm-12 col-md-4">
               <img class="center-block icon" src="images/cd.png" alt="Stack of CD's Icon"></img>
               <div class="title1"><strong>PLAY</strong>SHARE</div>
               <div class="description">Easily create and share playlists with your family and friends</div>
             </div>
-            <div class="col-sm-12 col-md-4 col-lg-4">
+            <div class="col-sm-12 col-md-4">
               <img class="center-block icon" src="images/playlist.png" alt="Playlist Icon"></img>
               <div class="title1">Create</div>
               <div class="description">Select songs from our music library to create your playlists</div>
             </div>
-            <div class="col-sm-12 col-md-4 col-lg-4">
+            <div class="col-sm-12 col-md-4">
               <img class="center-block icon" src="images/share.png" alt="Share Icon"></img>
               <div class="title1">Share</div>
               <div class="description">Add other users and share your playlists with them</div>
             </div>
           </div>
-          <div class="col-sm-2 col-md-2 col-lg-2"></div>
+          <div class="col-sm-2"></div>
         </div>
       </div>
     </div>
@@ -172,9 +172,11 @@
       <div class="row">
         <div class="col-sm-12 col-md-12 col-lg-12 concert">
           <div class="concert-cover">
-            <div class="col-sm-1 col-md-1 col-lg-2"></div>
-            <div class="everyone col-sm-6 col-md-6 col-lg-6">Music for everyone!</div>
-            <div class="everyone-sm col-sm-6 col-md-6 col-lg-6">All the music you'll ever need is right here.</div>
+            <div class="col-sm-1 col-lg-2"></div>
+            <div class="everyone col-sm-11 col-lg-10">
+              Music for everyone!<br>
+              <span class="everyone-sm">All the music you'll ever need is right here.</span>
+            </div>
           </div>
         </div>
       <div>
@@ -235,7 +237,7 @@
 <!--end pricing and features-->
 
 <!--create new playlist-->
-    <div id="hidden">
+    <div class="collapse">
       <div class="row new-playlist">
         <div class="col-sm-12 col-md-12 col-lg-12">
           <div class="h1 title2">New Playlist</div>
@@ -352,7 +354,7 @@
 <!--end create a new playlist-->
     
 <!--all playlists-->
-    <div id="hidden">
+    <div class="collapse">
       <div class="row">
         <div class="col-sm-12 col-md-12 col-lg-12 spacing">
           <div class="h1 title2">View/Edit Playlists</div>
@@ -503,7 +505,7 @@
         <div class="modal-body">
           <form>
             <div class="select-user">
-              <input class="search" type="search" value="Search for user">
+              <input class="search" type="search" placeholder="Search for user">
               <input class="btn add" type="submit" value="+">
               <div class="user-list">
                 <div class="selected-users">Selected Users</div>
@@ -542,24 +544,24 @@
 
 <!--footer-->
     <div class="row footer">
-      <div class="col-sm-2 col-md-2 col-lg-2"></div>
-      <div class="navigation col-sm-2 col-md-2 col-lg-2">
+      <div class="col-sm-2"></div>
+      <div class="navigation col-sm-2">
         <!--all playlists button-->
         <a class="btn all center-block" type="button">All</a>
       </div>
-      <div class="navigation col-sm-2 col-md-2 col-lg-2">
+      <div class="navigation col-sm-2">
         <!--create a new playlist button-->
         <a class="btn create center-block" type="button">Create</a>
       </div>
-      <div class="navigation col-sm-2 col-md-2 col-lg-2">
+      <div class="navigation col-sm-2">
         <!--share button-->
         <a class="btn share1 center-block" type="button" data-toggle="modal" data-target="#share-users">Share</a>
       </div>
-      <div class="col-sm-2 col-md-2 col-lg-2">
+      <div class="col-sm-2">
         <!--contact us modal button-->
         <a class="btn contact-us center-block" data-toggle="modal" data-target="#contactus" type="button">Contact Us</a>
       </div>
-      <div class="col-sm-2 col-md-2 col-lg-2"></div>
+      <div class="col-sm-2"></div>
     </div>
 <!--end footer-->
 
