@@ -1,10 +1,9 @@
 /*hide and show login prompt*/
 function showClick() {
-  var showEl = document.className('hidden');
-  document.getElementById(showEl);
-  
+  var showEl = document.getElementById('hidden');
+  div.setAttribute('hidden', 'show')
 }
 
 var navLogin = document.getElementById('log-in');
 var btn = document.getElementsByTagName('btn')
-btn.addEventListener('click', showClick, false);
+navLogin.addEventListener('click', showClick, false);
