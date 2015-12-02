@@ -17,11 +17,11 @@
         <div class="col-sm-9">
           <div class="navigation col-sm-2">
             <!--all playlists button-->
-            <a class="btn all center-block" type="button">All</a>
+            <a class="btn all center-block" id="getall" type="button">All</a>
           </div>
           <div class="navigation col-sm-2">
             <!--create a new playlist button-->
-            <a class="btn create center-block" type="button">Create</a>
+            <a class="btn create center-block" id="createnew" type="button">Create</a>
           </div>
           <div class="navigation col-sm-2">
             <!--share button-->
@@ -30,7 +30,7 @@
           <div class="navigation col-sm-1 col-md-2"></div>
           <div class="navigation col-sm-2">
             <!--sign up modal button-->
-            <a class="btn sign-up center-block" data-toggle="modal" data-target="#signup" type="button">Sign Up</a> 
+            <a class="btn sign-up center-block" href="#anchor" type="button">Sign Up</a> 
           </div>
           <div class="navigation col-sm-2">
             <!--login button-->
@@ -49,7 +49,7 @@
           <div class="image-loader1"></div>
           <div class="artist-playlist">View The Neighbourhood's Vinyls Playlist</div>
           <div class="selection">A selection of the band's favorite songs from the vinyl they've picked up on their #THEFLOOD2015 tour.
-            <button class="btn btn-primary view center-block" type="button">View</button>
+            <button class="btn view center-block" type="button">View</button>
           </div>
         </div>
         <div class="featured-circle1">
@@ -187,7 +187,7 @@
     <div class="container-fluid">
       <div class="row pricing-features">
         <div class="col-sm-12 col-md-12 col-lg-12">
-          <div class="h1 text-center">Listen free or <strong>subscribe</strong> to <strong>PLAY</strong>SHARE <strong>Premium</strong>.</div>
+          <div class="h1 text-center" id="anchor">Listen free or <strong>subscribe</strong> to <strong>PLAY</strong>SHARE <strong>Premium</strong>.</div>
           <div class="col-sm-2 col-md-2 col-lg-2"></div>
           <div class="col-sm-8 col-md-8 col-lg-8">
             <div class="col-sm-12 col-md-5 col-lg-5">
@@ -204,7 +204,7 @@
                     <li class="text-muted"><span class="glyphicon glyphicon-check"></span>Hight quality audio</li>
                   </ul>
                 </div>
-                <button class="btn btn-default free-button" type="button">Get Free</button>
+                <button class="btn free-button" data-toggle="modal" data-target="#signup" type="button">Get Free</button>
               </div>
             </div>
             <div class="col-sm-1 col-md-1 col-lg-1"></div>
@@ -225,7 +225,7 @@
                       <li><span class="glyphicon glyphicon-check"></span>Hight quality audio</li>
                     </ul>
                   </div>
-                  <button class="btn btn-default premium-button" type="button">Get Premium</button>
+                  <button class="btn premium-button" type="button">Get Premium</button>
                 </div>
               </div>
             </div>
@@ -237,7 +237,7 @@
 <!--end pricing and features-->
 
 <!--create new playlist-->
-    <div class="collapse">
+    <div class="collapse" id="create-new">
       <div class="row new-playlist">
         <div class="col-sm-12 col-md-12 col-lg-12">
           <div class="h1 title2">New Playlist</div>
@@ -354,7 +354,7 @@
 <!--end create a new playlist-->
     
 <!--all playlists-->
-    <div class="collapse">
+    <div class="collapse" id="all-in">
       <div class="row">
         <div class="col-sm-12 col-md-12 col-lg-12 spacing">
           <div class="h1 title2">View/Edit Playlists</div>

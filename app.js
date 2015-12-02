@@ -1,19 +1,20 @@
 /*hide and show login prompt*/
-function clicked(button, toggle) {
- if (status.length === 1) {
-    addEventListener('clicked',function() {
-      status.setAttribute('collapse', 'in');
-    }, false)
- }
- else {
-    addEventListener('clicked',function() {
-      status.setAttribute('collapse');
-    }, false)
-  }
+function toggle(button, theDiv) {
+  var buttonName = document.getElementById(button);
+  buttonName.addEventListener('click', function(){
+    var div = document.getElementById(theDiv);
+    if (div.className === 'collapse'){
+      div.setAttribute('class', 'collapse in');
+    } 
+    else if (div.className === 'collapse in'){
+      div.setAttribute('class', 'collapse');
+    }
+    else {
+      console.log('You got the wrong div');
+    }
+  }, false)
 }
 
-var loginButton = document.getElementById('login');
-var login = document.getElementById('log-in');
-var status = login.getAttribute('class');
-clicked(loginButton, status);
-
+toggle('login', 'log-in');
+toggle('createnew', 'create-new');
+toggle('getall', 'all-in');
