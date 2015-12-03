@@ -11,30 +11,47 @@
   </head>
   <body class="container-fluid body">
 <!--header-->
-    <div class="row header">
-      <div class="col-sm-12">
-        <div class="navigation logo col-sm-3"><strong>PLAY</strong>SHARE</div>
-        <div class="col-sm-9">
-          <div class="navigation col-sm-2">
-            <!--all playlists button-->
-            <a class="btn all center-block" id="getall" href="#all-in" type="button">All</a>
-          </div>
-          <div class="navigation col-sm-2">
-            <!--create a new playlist button-->
-            <a class="btn create center-block" id="createnew" href="#create-new" type="button">Create</a>
-          </div>
-          <div class="navigation col-sm-2">
-            <!--share button-->
-            <a class="btn share1 center-block" type="button" data-toggle="modal" data-target="#share-users">Share</a>
-          </div>
-          <div class="navigation col-sm-1 col-md-2"></div>
-          <div class="navigation col-sm-2">
-            <!--sign up modal button-->
-            <a class="btn sign-up center-block" href="#anchor" type="button">Sign Up</a> 
-          </div>
-          <div class="navigation col-sm-2">
-            <!--login button-->
-            <a class="btn center-block" id="login" href="#log-in" type="button">Login</a>
+    <div class="container-fluid">
+      <!-- Logo and toggle for better mobile display-->
+      <div class="row header">
+        <div>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#the-navbar" aria-expanded="false">
+            <span class="glyphicon glyphicon-menu-hamburger"></span>
+            <span class="navigation"></span>
+            <span class="all-button"></span>
+            <span class="create"></span>
+            <span class="share1"></span>
+            <span class="sign-up"></span>
+            <span class="login-button"></span>
+          </button>
+          <div class="navigation logo col-sm-3"><strong>PLAY</strong>SHARE</div>
+        </div>
+
+
+        <div class="collapse navbar-collapse" id="the-navbar">
+          <div class="navigation col-sm-3"></div>
+          <div class="col-sm-9 nav-margin">
+            <div class="navigation col-sm-2">
+              <!--all playlists button-->
+              <a class="btn all center-block all-button" id="getall" href="#all-in" type="button">All</a>
+            </div>
+            <div class="navigation col-sm-2">
+              <!--create a new playlist button-->
+              <a class="btn create center-block" id="createnew" href="#create-new" type="button">Create</a>
+            </div>
+            <div class="navigation col-sm-2">
+              <!--share button-->
+              <a class="btn share1 center-block" type="button" data-toggle="modal" data-target="#share-users">Share</a>
+            </div>
+            <div class="navigation col-sm-1 col-md-2"></div>
+            <div class="navigation col-sm-2">
+              <!--sign up modal button-->
+              <a class="btn sign-up center-block" href="#anchor" type="button">Sign Up</a> 
+            </div>
+            <div class="navigation col-sm-2">
+              <!--login button-->
+              <a class="btn center-block login-button" id="login" href="#log-in" type="button">Login</a>
+            </div>
           </div>
         </div>
       </div>
