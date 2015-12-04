@@ -20,7 +20,7 @@
   padding-left: 0px;
 }
 
- .image-loader {
+.image-loader {
   position: relative;
   left: 70%;
   top: 150px;
@@ -248,7 +248,6 @@
     color: #f1fd14;
     font-size: 24px;
     margin-top: 0px;
-    display: inline-block;
   }
 
   .image-loader {
@@ -264,7 +263,7 @@
     background-position: center center;
    }  
 
- .everyone {
+  .everyone {
     margin-top: 200px;
     margin-left: 100px;
     font-family: 'Oxygen', helvetica, sans-serif;
@@ -290,6 +289,7 @@
   .navbar-toggle {
     display: none;
   }
+
   /*Css for hero*/
   .neighbourhood {
     background-image: url(../images/neighbourhood.jpg);
@@ -299,6 +299,7 @@
     background-size: cover;
     background-position: center center;
    }
+
   /*Css for concert image text*/
   .everyone {
     margin-top: 200px;
@@ -551,17 +552,18 @@
 /* Extra Large devices (large desktops, 1680px and up) */
 @media (min-width: 1680px) { 
   .logo {
-  color: #f1fd14;
-  font-size: 36px;
-  padding-left: 70px;
+    color: #f1fd14;
+    font-size: 36px;
+    padding-left: 70px;
   }
  /*Css for hero*/
-   .hero {
+  .hero {
     height: 1000px;
     padding-right: 0px;
     padding-left: 0px;
   }
-   .image-loader {
+
+  .image-loader {
     position: relative;
     left: 70%;
     top: 150px;
@@ -758,7 +760,8 @@
     width: 125px;
     border-radius: 50%;
   }
-    .everyone {
+
+  .everyone {
     margin-top: 200px;
     margin-left: 300px;
     font-family: 'Oxygen', helvetica, sans-serif;
@@ -778,6 +781,7 @@
 body {
   background-color: #10100a;
 }
+
 .body {
   padding-left: 0px;
   padding-right: 0px;
