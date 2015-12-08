@@ -96,11 +96,19 @@
         <div class="modal-body">
           <form>
             <div class="form">
-              <div><label class="info" for="username">Username:<input id="username" type="text" placeholder="johndoe" maxlength="20"></label></div>
-              <div><label class="info" for="password">Password:<input id="password" type="password" placeholder="12345678" maxlength="20"></label></div>
-              <div><label class="info" for="email">Email:<input id="email" type="text" placeholder="email@example.com"></div>
+              <label class="info" for="username">Username:
+                <input id="username" type="text" placeholder="johndoe" maxlength="20">
+              </label>
+              <label class="info" for="password">Password:
+                <input id="password" type="password" placeholder="12345678" maxlength="20">
+              </label>
+              <label class="info" for="email">Email:
+                <input id="email" type="text" placeholder="email@example.com">
+              </label>
             </div>
-            <div><label class="info" for="checkbox"><input id="checkbox" type="checkbox" checked="checked">Click here to subscribe for our monthly emails and promotions</label></div>
+            <label class="info" for="checkbox">
+              <input id="checkbox" type="checkbox" checked="checked">Click here to subscribe for our monthly emails and promotions
+            </label>
           </form>
         </div>
         <div class="modal-footer">
@@ -113,10 +121,16 @@
 
 <!--login-->
     <div class="collapse" id="log-in">
-      <div><label class="login-info" for="username1">Username:<input id="username1" type="text" placeholder="johndoe" maxlength="20"></label></div>
-      <div><label class="login-info" for="password1">Password:<input id="password1" type="password" placeholder="12345678" maxlength="20"></label></div>
-      <div><label class="login-info" for="checkbox1"><input id="checkbox1" type="checkbox" checked="checked">Click here to stay logged in</label></div>
-      <div><button class="btn btn-primary submit1" type="button">Login</button></div>
+      <label class="login-info" for="username1">Username:
+        <input id="username1" type="text" placeholder="johndoe" maxlength="20">
+      </label>
+      <label class="login-info" for="password1">Password:
+        <input id="password1" type="password" placeholder="12345678" maxlength="20">
+      </label>
+      <label class="login-info" for="checkbox1">
+        <input id="checkbox1" type="checkbox" checked="checked">Click here to stay logged in
+      </label>
+      <button class="btn btn-primary submit1" type="button">Login</button>
     </div>
 <!--end login-->
 
@@ -131,18 +145,28 @@
         <div class="modal-body">
           <form>
             <div class="form">
-              <div><label class="info" for="name">Name:<input id="name" type="text" placeholder="John Doe" maxlength="25"></label></div>
-              <div><label class="info" for="email">Email:<input id="email" type="text" placeholder="email@example.com"></div>
+              <label class="info" for="name">Name:<input id="name" type="text" placeholder="John Doe" maxlength="25"></label>
+              <label class="info" for="email">Email:<input id="email" type="text" placeholder="email@example.com"></label>
             </div>
-            <div class="concern">Please select your concern</div>
-            <div><label class="concern" for="checkbox2"><input id="checkbox2" type="checkbox" checked="checked">I have a question</label></div>
-            <div><label class="concern" for="checkbox3"><input id="checkbox3" type="checkbox">I have a suggestion</label></div>
-            <div><label class="concern" for="checkbox4"><input id="checkbox4" type="checkbox">Write a testimonial</label></div>
-            <div><label class="concern" for="checkbox5"><input id="checkbox5" type="checkbox">I am having trouble creating a playlist</label></div>
-            <div><label class="concern" for="checkbox6"><input id="checkbox6" type="checkbox">Other</label></div>
-            <div class="concern">Please explain your concern in detail:</div>
+            <p class="concern">Please select your concern</p>
+            <label class="concern" for="checkbox2">
+              <input id="checkbox2" type="checkbox" checked="checked">I have a question
+            </label>
+            <label class="concern" for="checkbox3">
+              <input id="checkbox3" type="checkbox">I have a suggestion
+            </label>
+            <label class="concern" for="checkbox4">
+              <input id="checkbox4" type="checkbox">Write a testimonial
+            </label>
+            <label class="concern" for="checkbox5">
+              <input id="checkbox5" type="checkbox">I am having trouble creating a playlist
+            </label>
+            <label class="concern" for="checkbox6">
+              <input id="checkbox6" type="checkbox">Other
+            </label>
+            <p class="concern">Please explain your concern in detail:</p>
             <textarea id="textarea" placeholder="Start typing..."></textarea>
-            <div id="limit"><superscript>*</superscript>1000 word limit</div>
+            <p id="limit"><superscript>*</superscript>1000 word limit</p>
           </form>
         </div>
         <div class="modal-footer">
@@ -157,23 +181,23 @@
     <div class="container-fluid">
       <div class="row product">
         <div class="col-sm-12">
-          <div class="h1 soundtrack">Create life's soundtrack.</div>
+          <h1 class="h1 soundtrack">Create life's soundtrack.</h1>
           <div class="col-sm-2"></div>
           <div class="col-sm-8">
             <div class="col-sm-12 col-md-4">
               <img class="center-block icon" src="images/cd.png" alt="Stack of CD's Icon"></img>
-              <div class="title1"><strong>PLAY</strong>SHARE</div>
-              <div class="description">Easily create and share playlists with your family and friends</div>
+              <h2 class="title1"><strong>PLAY</strong>SHARE</h2>
+              <p class="description">Easily create and share playlists with your family and friends</p>
             </div>
             <div class="col-sm-12 col-md-4">
               <img class="center-block icon" src="images/playlist.png" alt="Playlist Icon"></img>
-              <div class="title1">Create</div>
-              <div class="description">Select songs from our music library to create your playlists</div>
+              <h2 class="title1">Create</h2>
+              <p class="description">Select songs from our music library to create your playlists</p>
             </div>
             <div class="col-sm-12 col-md-4">
               <img class="center-block icon" src="images/share.png" alt="Share Icon"></img>
-              <div class="title1">Share</div>
-              <div class="description">Add other users and share your playlists with them</div>
+              <h2 class="title1">Share</h2>
+              <p class="description">Add other users and share your playlists with them</p>
             </div>
           </div>
           <div class="col-sm-2"></div>
@@ -194,50 +218,76 @@
             </div>
           </div>
         </div>
-      <div>
+      </div>
     </div>
 <!--end concert image-->
 
 <!--pricing and features-->
     <div class="container-fluid">
       <div class="row pricing-features">
-        <div class="col-sm-12 col-md-12 col-lg-12">
+        <div class="col-sm-12">
           <div class="h1 text-center" id="anchor">Listen free or <strong>subscribe</strong> to <strong>PLAY</strong>SHARE <strong>Premium</strong>.</div>
-          <div class="col-sm-2 col-md-2 col-lg-2"></div>
-          <div class="col-sm-8 col-md-8 col-lg-8">
-            <div class="col-sm-12 col-md-5 col-lg-5">
+          <div class="col-sm-2"></div>
+          <div class="col-sm-8">
+            <div class="col-sm-12 col-md-5">
               <div id="free">
-                <div>Free</div>
-                <div>$0.00 <span class="small-down">/month</span></div>
+                <h2>Free</h2>
+                <p>$0.00 <span class="small-down">/month</span></p>
                 <div>
                   <ul id="free-features">
-                    <li><span class="glyphicon glyphicon-check"></span>Create 5 playlists</li>
-                    <li><span class="glyphicon glyphicon-check"></span>Share playlists with 3 users</li>
-                    <li class="text-muted"><span class="glyphicon glyphicon-check"></span>Ad free</li>
-                    <li class="text-muted"><span class="glyphicon glyphicon-check"></span>Listen offline</li>
-                    <li class="text-muted"><span class="glyphicon glyphicon-check"></span>Play any track</li>
-                    <li class="text-muted"><span class="glyphicon glyphicon-check"></span>Hight quality audio</li>
+                    <li>
+                      <span class="glyphicon glyphicon-check"></span>Create 5 playlists
+                    </li>
+                    <li>
+                      <span class="glyphicon glyphicon-check"></span>Share playlists with 3 users
+                    </li>
+                    <li class="text-muted">
+                      <span class="glyphicon glyphicon-check"></span>Ad free
+                    </li>
+                    <li class="text-muted">
+                      <span class="glyphicon glyphicon-check"></span>Listen offline
+                    </li>
+                    <li class="text-muted">
+                      <span class="glyphicon glyphicon-check"></span>Play any track
+                    </li>
+                    <li class="text-muted">
+                      <span class="glyphicon glyphicon-check"></span>Hight quality audio
+                    </li>
                   </ul>
                 </div>
                 <button class="btn free-button" data-toggle="modal" data-target="#signup" type="button">Get Free</button>
               </div>
             </div>
-            <div class="col-sm-1 col-md-1 col-lg-1"></div>
-            <div class="col-sm-12 col-md-6 col-lg-6">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-12 col-md-6">
               <div>
-                <div id="recommended">RECOMMENDED</div>
+                <h4 id="recommended">RECOMMENDED</h4>
                 <div id="premium">
-                  <div><strong>PLAY</strong>SHARE Premium</div>
-                  <div>$9.99 <span class="small-down">/month</span></div>
-                  <div id="trial">Enjoy a free 30 day trial</div>
+                  <h2><strong>PLAY</strong>SHARE Premium</h2>
+                  <p>$9.99 
+                    <span class="small-down">/month</span>
+                  </p>
+                  <p id="trial">Enjoy a free 30 day trial</p>
                   <div>
                     <ul id="premium-features">
-                      <li><span class="glyphicon glyphicon-check"></span>Create unlimited playlists</li>
-                      <li><span class="glyphicon glyphicon-check"></span>Unlimited sharing</li>
-                      <li><span class="glyphicon glyphicon-check"></span>Ad free</li>
-                      <li><span class="glyphicon glyphicon-check"></span>Listen offline</li>
-                      <li><span class="glyphicon glyphicon-check"></span>Play any track</li>
-                      <li><span class="glyphicon glyphicon-check"></span>Hight quality audio</li>
+                      <li>
+                        <span class="glyphicon glyphicon-check"></span>Create unlimited playlists
+                      </li>
+                      <li>
+                        <span class="glyphicon glyphicon-check"></span>Unlimited sharing
+                      </li>
+                      <li>
+                        <span class="glyphicon glyphicon-check"></span>Ad free
+                      </li>
+                      <li>
+                        <span class="glyphicon glyphicon-check"></span>Listen offline
+                      </li>
+                      <li>
+                        <span class="glyphicon glyphicon-check"></span>Play any track
+                      </li>
+                      <li>
+                        <span class="glyphicon glyphicon-check"></span>Hight quality audio
+                      </li>
                     </ul>
                   </div>
                   <button class="btn premium-button" type="button">Get Premium</button>
@@ -245,7 +295,7 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-2 col-md-2 col-lg-2"></div>
+          <div class="col-sm-2"></div>
         </div>
       </div>
     </div>
@@ -254,10 +304,10 @@
 <!--create new playlist-->
     <div class="collapse" id="create-new">
       <div class="row new-playlist">
-        <div class="col-sm-12 col-md-12 col-lg-12">
+        <div class="col-sm-12">
           <div class="h1 title2">New Playlist</div>
-          <div class="col-sm-2 col-md-2 log-lg-2"></div>
-          <div class="col-sm-8 col-md-8 log-lg-8" id="size1">
+          <div class="col-sm-2"></div>
+          <div class="col-sm-8" id="size1">
             <!--header- enter new playlist name, search for songs, add button-->
             <div class="list-header">
               <input id="playlist-name" type="text" value="Enter playlist name">
@@ -360,9 +410,9 @@
               </table>
             </div>
             <!--footer- number of songs-->
-            <div class="total">14 Songs</div>
+            <p class="total">14 Songs</p>
           </div>
-          <div class="col-sm-2 col-md-2 log-lg-2"></div>
+          <div class="col-sm-2"></div>
         </div>
       </div>
     </div>
@@ -371,12 +421,14 @@
 <!--all playlists-->
     <div class="collapse" id="all-in">
       <div class="row">
-        <div class="col-sm-12 col-md-12 col-lg-12 spacing">
+        <div class="col-sm-12 spacing">
           <div class="h1 title2">View/Edit Playlists</div>
-          <div class="col-sm-1 col-md-1 log-lg-1"></div>
-          <div class="col-sm-2 col-md-2 log-lg-2 sidebar">
+          <div class="col-sm-1"></div>
+          <div class="col-sm-2 sidebar">
             <div>
-              <div class="title3">Playlist<input class="btn add" type="submit" value="+"></div>
+              <div class="title3">Playlist
+                <input class="btn add" type="submit" value="+">
+              </div>
               <ul class="list">
                 <li class="existing">Playlist 1</li>
                 <li class="existing">Road Trips</li>
@@ -397,7 +449,7 @@
               <div class="playing">Audio controls and progress bar</div>
             </div>
           </div>
-          <div class="col-sm-8 col-md-8 log-lg-8" id="size1">
+          <div class="col-sm-8" id="size1">
             <!--header- enter new playlist name, search for songs, add button-->
             <div class="list-header">
               <a class="btn edit" type="button">edit</a>
@@ -502,9 +554,9 @@
               </table>
             </div>
             <!--footer- number of songs-->
-            <div class="total">14 Songs</div>
+            <p class="total">14 Songs</p>
           </div>
-          <div class="col-sm-1 col-md-1 log-lg-1"></div>
+          <div class="col-sm-1"></div>
         </div>
       </div>
     </div>
@@ -514,7 +566,9 @@
     <div class="modal fade" id="share-users" tabindex="-1" role="dialog">
       <div class="modal-dialog" role="document">
         <div class="modal-header">
-          <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
           <h4 class="modal-title" id="modal-title">Share with existing user</h4>
         </div>
         <div class="modal-body">
@@ -534,16 +588,56 @@
             <div class="existing-playlists">
               <div>Select playlists you wish to share
                 <ul>
-                  <li><label class="checkbox list1" for="checkbox7"><input id="checkbox7" type="checkbox" checked="checked">Playlist 1</label></li>
-                  <li><label class="checkbox list1" for="checkbox8"><input id="checkbox8" type="checkbox">Road Trips</label></li>
-                  <li><label class="checkbox list1" for="checkbox9"><input id="checkbox9" type="checkbox">Favorites</label></li>
-                  <li><label class="checkbox list1" for="checkbox10"><input id="checkbox10" type="checkbox">Best Friend</label></li>
-                  <li><label class="checkbox list1" for="checkbox11"><input id="checkbox11" type="checkbox">Background Music</label></li>
-                  <li><label class="checkbox list1" for="checkbox12"><input id="checkbox12" type="checkbox">Without vocals</label></li>
-                  <li><label class="checkbox list1" for="checkbox13"><input id="checkbox13" type="checkbox">Classical</label></li>
-                  <li><label class="checkbox list1" for="checkbox14"><input id="checkbox14" type="checkbox">Top 100's</label></li>
-                  <li><label class="checkbox list1" for="checkbox15"><input id="checkbox15" type="checkbox">90's Music</label></li>
-                  <li><label class="checkbox list1" for="checkbox16"><input id="checkbox16" type="checkbox">Playlist for mom</label></li>
+                  <li>
+                    <label class="checkbox list1" for="checkbox7">
+                      <input id="checkbox7" type="checkbox" checked="checked">Playlist 1
+                    </label>
+                  </li>
+                  <li>
+                    <label class="checkbox list1" for="checkbox8">
+                      <input id="checkbox8" type="checkbox">Road Trips
+                    </label>
+                  </li>
+                  <li>
+                    <label class="checkbox list1" for="checkbox9">
+                      <input id="checkbox9" type="checkbox">Favorites
+                    </label>
+                  </li>
+                  <li>
+                    <label class="checkbox list1" for="checkbox10">
+                      <input id="checkbox10" type="checkbox">Best Friend
+                    </label>
+                  </li>
+                  <li>
+                    <label class="checkbox list1" for="checkbox11">
+                      <input id="checkbox11" type="checkbox">Background Music
+                    </label>
+                  </li>
+                  <li>
+                    <label class="checkbox list1" for="checkbox12">
+                      <input id="checkbox12" type="checkbox">Without vocals
+                    </label>
+                  </li>
+                  <li>
+                    <label class="checkbox list1" for="checkbox13">
+                      <input id="checkbox13" type="checkbox">Classical
+                    </label>
+                  </li>
+                  <li>
+                    <label class="checkbox list1" for="checkbox14">
+                      <input id="checkbox14" type="checkbox">Top 100's
+                    </label>
+                  </li>
+                  <li>
+                    <label class="checkbox list1" for="checkbox15">
+                      <input id="checkbox15" type="checkbox">90's Music
+                    </label>
+                  </li>
+                  <li>
+                    <label class="checkbox list1" for="checkbox16">
+                      <input id="checkbox16" type="checkbox">Playlist for mom
+                    </label>
+                  </li>
                 <ul>
               </div>
             </div>
