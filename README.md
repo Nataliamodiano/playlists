@@ -4,6 +4,7 @@ Built using:
   
   - HTML5, CSS3, and Bootstrap 3
   - JavaScript
+  - Google Fonts API
 
   ![home](https://github.com/Nataliamodiano/playlists/blob/master/images/final-screenshots/Playshare.jpg?raw=true)
   
